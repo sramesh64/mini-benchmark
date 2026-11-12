@@ -1,0 +1,1068 @@
+{
+ "reward": 0.6053,
+ "full_pass": 0,
+ "nets_to_route": 38,
+ "nets_good": 23,
+ "nets_open": 3,
+ "nets_with_violations": 14,
+ "other_nets_broken": 0,
+ "violations": 58,
+ "tracks_and_vias": 3357,
+ "connections_missing": 12,
+ "rounds": 1,
+ "parts_to_place": 0,
+ "placement_violations": 0,
+ "detail": {
+  "good_nets": [
+   "Net-(D1-Pad2)",
+   "Net-(J1-Pad2)",
+   "Net-(J1-Pad3)",
+   "Net-(J2-Pad3)",
+   "Net-(J2-Pad4)",
+   "Net-(J3-Pad2)",
+   "Net-(J5-Pad1)",
+   "Net-(J5-Pad3)",
+   "Net-(L1-Pad2)",
+   "Net-(L2-Pad2)",
+   "Net-(L3-Pad2)",
+   "Net-(L4-Pad2)",
+   "Net-(L5-Pad2)",
+   "Net-(L6-Pad2)",
+   "Net-(L7-Pad2)",
+   "Net-(L8-Pad2)",
+   "Net-(R1-Pad1)",
+   "Net-(R14-Pad2)",
+   "Net-(R2-Pad1)",
+   "Net-(SW2-Pad1)",
+   "Net-(SW3-Pad1)",
+   "Net-(SW6-Pad1)",
+   "Net-(SW7-Pad1)"
+  ],
+  "open_nets": [
+   "+5V",
+   "GND",
+   "Net-(J5-Pad5)"
+  ],
+  "violations": [
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2137 mm)",
+    "nets": [
+     "Net-(C1-Pad1)"
+    ],
+    "at": [
+     [
+      76.561,
+      84.31
+     ],
+     [
+      77.3,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2143 mm)",
+    "nets": [
+     "+5V",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      82.785,
+      91.943
+     ],
+     [
+      82.668,
+      92.648
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(SW1-Pad1)"
+    ],
+    "at": [
+     [
+      94.999,
+      64.346
+     ],
+     [
+      94.411,
+      64.111
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(SW1-Pad1)"
+    ],
+    "at": [
+     [
+      94.411,
+      64.111
+     ],
+     [
+      94.999,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0813 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.396,
+      64.346
+     ],
+     [
+      134.926,
+      63.994
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0813 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      134.926,
+      63.994
+     ],
+     [
+      135.396,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(SW1-Pad1)"
+    ],
+    "at": [
+     [
+      94.999,
+      64.346
+     ],
+     [
+      94.646,
+      63.876
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(SW1-Pad1)"
+    ],
+    "at": [
+     [
+      94.646,
+      63.876
+     ],
+     [
+      94.999,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(SW1-Pad1)"
+    ],
+    "at": [
+     [
+      94.999,
+      64.346
+     ],
+     [
+      93.589,
+      64.933
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(SW1-Pad1)"
+    ],
+    "at": [
+     [
+      93.589,
+      64.933
+     ],
+     [
+      94.999,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2180 mm)",
+    "nets": [
+     "Net-(C3-Pad2)"
+    ],
+    "at": [
+     [
+      70.8,
+      78.4
+     ],
+     [
+      70.102,
+      79.143
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2367 mm)",
+    "nets": [
+     "Net-(SW5-Pad1)"
+    ],
+    "at": [
+     [
+      82.551,
+      78.438
+     ],
+     [
+      82.2,
+      79.2
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.396,
+      64.346
+     ],
+     [
+      135.161,
+      63.759
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.161,
+      63.759
+     ],
+     [
+      135.396,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2146 mm)",
+    "nets": [
+     "Net-(SW4-Pad1)"
+    ],
+    "at": [
+     [
+      82.2,
+      80.0
+     ],
+     [
+      82.668,
+      79.26
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.396,
+      64.346
+     ],
+     [
+      135.044,
+      63.876
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.044,
+      63.876
+     ],
+     [
+      135.396,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2143 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      114.375,
+      84.545
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.396,
+      64.346
+     ],
+     [
+      134.809,
+      64.111
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2143 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      114.375,
+      84.545
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.396,
+      64.346
+     ],
+     [
+      134.574,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1748 mm)",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      74.917,
+      85.719
+     ],
+     [
+      74.1,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0813 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      114.61,
+      84.31
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2400 mm)",
+    "nets": [
+     "/BACKLIT"
+    ],
+    "at": [
+     [
+      81.494,
+      79.965
+     ],
+     [
+      82.2,
+      79.2
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0813 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      114.61,
+      84.31
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2189 mm)",
+    "nets": [
+     "Net-(R4-Pad2)"
+    ],
+    "at": [
+     [
+      76.444,
+      72.801
+     ],
+     [
+      75.7,
+      73.5
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1528 mm)",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      74.095,
+      74.328
+     ],
+     [
+      73.3,
+      73.5
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0813 mm)",
+    "nets": [
+     "GND",
+     "Net-(SW1-Pad1)"
+    ],
+    "at": [
+     [
+      94.999,
+      64.346
+     ],
+     [
+      94.529,
+      63.994
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2143 mm)",
+    "nets": [
+     "+5V",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      82.668,
+      92.648
+     ],
+     [
+      82.668,
+      91.826
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.396,
+      64.346
+     ],
+     [
+      134.809,
+      64.111
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2143 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      115.08,
+      83.84
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2143 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      115.08,
+      83.84
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1528 mm)",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      73.978,
+      74.211
+     ],
+     [
+      73.3,
+      73.5
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1528 mm)",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      74.095,
+      84.075
+     ],
+     [
+      73.3,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      115.197,
+      84.545
+     ],
+     [
+      114.493,
+      84.428
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      114.493,
+      84.428
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2000 mm)",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      71.85,
+      59.15
+     ],
+     [
+      71.042,
+      59.766
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      115.197,
+      84.545
+     ],
+     [
+      114.845,
+      84.075
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0872 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      115.197,
+      84.545
+     ],
+     [
+      114.845,
+      84.075
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      135.396,
+      64.346
+     ],
+     [
+      134.574,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1748 mm)",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      74.1,
+      84.9
+     ],
+     [
+      74.8,
+      85.602
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0813 mm)",
+    "nets": [
+     "GND",
+     "Net-(SW1-Pad1)"
+    ],
+    "at": [
+     [
+      94.529,
+      63.994
+     ],
+     [
+      94.999,
+      64.346
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2439 mm)",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      82.433,
+      82.431
+     ],
+     [
+      82.2,
+      83.2
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      114.963,
+      83.958
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1324 mm)",
+    "nets": [
+     "GND",
+     "Net-(Q1-Pad2)"
+    ],
+    "at": [
+     [
+      114.963,
+      83.958
+     ],
+     [
+      115.197,
+      84.545
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1528 mm)",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      73.978,
+      84.193
+     ],
+     [
+      73.3,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2357 mm)",
+    "nets": [
+     "Net-(C2-Pad1)"
+    ],
+    "at": [
+     [
+      75.739,
+      84.193
+     ],
+     [
+      76.5,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2117 mm)",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      79.7,
+      73.5
+     ],
+     [
+      80.437,
+      74.211
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2117 mm)",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      79.7,
+      73.5
+     ],
+     [
+      80.789,
+      74.563
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2439 mm)",
+    "nets": [
+     "Net-(J5-Pad4)"
+    ],
+    "at": [
+     [
+      70.102,
+      82.431
+     ],
+     [
+      70.8,
+      83.2
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2410 mm)",
+    "nets": [
+     "Net-(SW8-Pad1)"
+    ],
+    "at": [
+     [
+      77.266,
+      74.093
+     ],
+     [
+      76.5,
+      73.5
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2410 mm)",
+    "nets": [
+     "Net-(R13-Pad2)"
+    ],
+    "at": [
+     [
+      77.266,
+      85.602
+     ],
+     [
+      76.5,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      74.917,
+      85.719
+     ],
+     [
+      74.1,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      74.8,
+      85.602
+     ],
+     [
+      74.1,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      74.095,
+      74.328
+     ],
+     [
+      73.3,
+      73.5
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      73.978,
+      74.211
+     ],
+     [
+      73.3,
+      73.5
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      74.095,
+      84.075
+     ],
+     [
+      73.3,
+      84.9
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "+5V"
+    ],
+    "at": [
+     [
+      73.978,
+      84.193
+     ],
+     [
+      73.3,
+      84.9
+     ]
+    ]
+   }
+  ],
+  "problems": []
+ }
+}

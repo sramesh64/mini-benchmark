@@ -1,0 +1,9 @@
+(version 1)
+# Minimum track widths, net by net: no track may be narrower than the narrowest track the
+# board's designer used on that net. Net names are spelled as in the board file.
+(rule "tracks at least 0.254 mm wide (3 nets)"
+  (condition "A.NetName == 'Net-(D1-Pad2)' || A.NetName == 'Net-(J1-Pad2)' || A.NetName == 'Net-(J1-Pad3)'")
+  (constraint track_width (min 0.254mm)))
+(rule "tracks at least 0.5 mm wide (35 nets)"
+  (condition "A.NetName == '+5V' || A.NetName == '/BACKLIT' || A.NetName == 'GND' || A.NetName == 'Net-(C1-Pad1)' || A.NetName == 'Net-(C2-Pad1)' || A.NetName == 'Net-(C3-Pad2)' || A.NetName == 'Net-(J2-Pad3)' || A.NetName == 'Net-(J2-Pad4)' || A.NetName == 'Net-(J3-Pad2)' || A.NetName == 'Net-(J5-Pad1)' || A.NetName == 'Net-(J5-Pad3)' || A.NetName == 'Net-(J5-Pad4)' || A.NetName == 'Net-(J5-Pad5)' || A.NetName == 'Net-(L1-Pad2)' || A.NetName == 'Net-(L2-Pad2)' || A.NetName == 'Net-(L3-Pad2)' || A.NetName == 'Net-(L4-Pad2)' || A.NetName == 'Net-(L5-Pad2)' || A.NetName == 'Net-(L6-Pad2)' || A.NetName == 'Net-(L7-Pad2)' || A.NetName == 'Net-(L8-Pad2)' || A.NetName == 'Net-(Q1-Pad2)' || A.NetName == 'Net-(R1-Pad1)' || A.NetName == 'Net-(R13-Pad2)' || A.NetName == 'Net-(R14-Pad2)' || A.NetName == 'Net-(R2-Pad1)' || A.NetName == 'Net-(R4-Pad2)' || A.NetName == 'Net-(SW1-Pad1)' || A.NetName == 'Net-(SW2-Pad1)' || A.NetName == 'Net-(SW3-Pad1)' || A.NetName == 'Net-(SW4-Pad1)' || A.NetName == 'Net-(SW5-Pad1)' || A.NetName == 'Net-(SW6-Pad1)' || A.NetName == 'Net-(SW7-Pad1)' || A.NetName == 'Net-(SW8-Pad1)'")
+  (constraint track_width (min 0.5mm)))

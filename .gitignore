@@ -1,0 +1,7 @@
+.env
+jobs/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env.*
+.private-words

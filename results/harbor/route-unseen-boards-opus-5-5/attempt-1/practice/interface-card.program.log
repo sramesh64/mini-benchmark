@@ -1,0 +1,10 @@
+'VCC', '/PC-AEN', '/MATCHL', '/PC-A8', '/PC-A6', '/ENBBUF', '/CLKLCA', '/PROG-', '/LED1', '/PC-WR', '/REF5', '/DONE', 'GND', '/D7', '/D6', '/PC-DB7', 'Net-(U9-P{slash}A3)', '/D1']
+[245.5] pass 12 good 80 bad 30 ['/REF10', '/PC-RD', '/REF5', '/PC-A10', 'GND', '/RSTL', '/MATCHL', '/REF9', '/PC-A4', '/PC-A6', '/PC-A11', '/PC-A7', '/D0', 'Net-(U9-P{slash}A3)', '/REF8', '/D6', '/D5', '/SEL_LPT', '/D1', '/D2']
+[266.3] pass 13 good 92 bad 18 ['/DIR', '/REF11', '/PC-A3', '/PC-A1', '/REF8', '/PC-A5', '/PC-A0', '/PC-A9', '/D7', '/D4', '/PC-RST', '/8MH-OUT', '/MA8', '/MA15', '/BIT7', '/BUST+', '/LED2', '/OE-']
+[290.7] pass 14 good 80 bad 30 ['VCC', '/PC-RD', '/PC-A10', '/PC-AEN', '/PC-A4', '/REF9', '/PC-A8', '/RSTL', '/PC-A2', '/D2', '/D3', '/PC-DB2', 'Net-(U9-P{slash}A3)', '/PC-DB7', '/D1', '/PROG-', '/PC-DB3', '/PC-DB4', '/PC-DB5', '/LED1']
+[309.8] pass 15 good 88 bad 22 ['/REF11', '/REF8', '/REF5', '/REF10', '/PC-A2', '/MATCHL', '/PC-A3', '/PC-A0', '/D5', '/LED1', '/D7', 'GND', '/PC-WR', '/DONE', '/PROG-', '/PC-RST', '/CLKLCA', '/PC-DB1', '/PC-DB0', '/8MH-OUT']
+[328.0] pass 16 good 92 bad 18 ['/PC-A3', '/PC-A0', '/PC-AEN', '/PC-A5', '/PC-A1', '/DIR', '/PC-A9', '/D1', '/PC-DB6', '/PC-A6', '/ENBBUF', '/D0', '/PC-DB5', '/MD0', '/MA16', '/MA6', '/MA2', '/MA1']
+[346.6] pass 17 good 84 bad 26 ['/PC-A3', '/PC-RD', '/PC-A9', '/PC-A4', '/REF8', '/PC-A6', '/PC-A8', '/PC-RST', '/PC-A11', '/PC-A7', '/PROG-', '/CLKLCA', 'GND', '/PC-DB4', '/D6', '/8MH-OUT', '/PC-WR', '/D3', '/D4', '/D2']
+[367.9] pass 18 good 89 bad 21 ['/PC-A4', '/PC-A2', '/MATCHL', 'VCC', '/PC-A0', '/PC-A10', '/PC-A8', '/8MH-OUT', '/REF10', '/REF9', '/PC-DB6', '/SEL_LPT', '/D0', '/D6', 'GND', '/PC-WR', '/D3', 'Net-(U9-P{slash}A3)', '/ENBBUF', 'Net-(U3-Y0)']
+[370.7] pass 19 good 8 bad 102 ['/REF11', '/PC-A3', '/MATCHL', '/PC-RD', '/REF10', '/PC-A9', '/SEL_LPT', '/D6', '/D3', '/PC-A8', '/PC-AEN', '/PC-A6', '/REF5', '/PC-A1', '/ENBBUF', 'Net-(U9-P{slash}A3)', '/8MH-OUT', '/PC-DB6', '/PC-A7', '/DIR']
+[370.7] done 101 / 110

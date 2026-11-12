@@ -1,0 +1,39 @@
+] fresh pass 22
+[ 300.2] round 278 best 22
+[ 300.9] round 279 best 22
+[ 301.6] round 280 best 22
+[ 302.7] fresh pass 22
+[ 303.4] round 281 best 22
+[ 304.0] round 282 best 22
+[ 304.7] round 283 best 22
+[ 305.7] fresh pass 22
+[ 306.3] round 284 best 22
+[ 307.0] round 285 best 22
+[ 307.5] round 286 best 22
+[ 307.9] rip-up done routed 22 / 38
+15:11:00: Debug: Adding duplicate image handler for 'PNG file'
+15:11:00: Debug: Adding duplicate image handler for 'JPEG file'
+15:11:00: Debug: Adding duplicate image handler for 'TIFF file'
+15:11:00: Debug: Adding duplicate image handler for 'GIF file'
+15:11:00: Debug: Adding duplicate image handler for 'PNM file'
+15:11:00: Debug: Adding duplicate image handler for 'PCX file'
+15:11:00: Debug: Adding duplicate image handler for 'IFF file'
+15:11:00: Debug: Adding duplicate image handler for 'Windows icon file'
+15:11:00: Debug: Adding duplicate image handler for 'Windows cursor file'
+15:11:00: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+15:11:00: Debug: Adding duplicate image handler for 'TGA file'
+15:11:00: Debug: Adding duplicate image handler for 'XPM file'
+[ 307.9] saved 409 items
+15:11:00: Debug: Adding duplicate image handler for 'PNG file'
+15:11:00: Debug: Adding duplicate image handler for 'JPEG file'
+15:11:00: Debug: Adding duplicate image handler for 'TIFF file'
+15:11:00: Debug: Adding duplicate image handler for 'GIF file'
+15:11:00: Debug: Adding duplicate image handler for 'PNM file'
+15:11:00: Debug: Adding duplicate image handler for 'PCX file'
+15:11:00: Debug: Adding duplicate image handler for 'IFF file'
+15:11:00: Debug: Adding duplicate image handler for 'Windows icon file'
+15:11:00: Debug: Adding duplicate image handler for 'Windows cursor file'
+15:11:00: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+15:11:00: Debug: Adding duplicate image handler for 'TGA file'
+15:11:00: Debug: Adding duplicate image handler for 'XPM file'
+[ 308.8] drc took 0.9 violations 0 {}

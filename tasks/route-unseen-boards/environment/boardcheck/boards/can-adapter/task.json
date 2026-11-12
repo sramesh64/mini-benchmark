@@ -1,0 +1,91 @@
+{
+ "board": "candleLightfd-S01",
+ "routable_nets": [
+  "+12V",
+  "+3V3",
+  "+5V",
+  "/CAN Transiver/CAN1_RX",
+  "/CAN Transiver/CAN1_S",
+  "/CAN Transiver/CAN1_TX",
+  "/CAN Transiver/CAN2_RX",
+  "/CAN Transiver/CAN2_S",
+  "/CAN Transiver/CAN2_TX",
+  "/CAN1_H",
+  "/CAN1_L",
+  "/CAN2_H",
+  "/CAN2_L",
+  "/MCU/LED_RX",
+  "/MCU/LED_TX",
+  "/MCU/NRST",
+  "/MCU/RX",
+  "/MCU/SWCLK",
+  "/MCU/SWDIO",
+  "/MCU/TX",
+  "/USB_N",
+  "/USB_P",
+  "GND",
+  "Net-(D1-A)",
+  "Net-(D2-A)",
+  "Net-(D3-A)",
+  "Net-(U1F-PF0{slash}OSC_IN)",
+  "Net-(U1F-PF1{slash}OSC_OUT)",
+  "Net-(X1-CC1)",
+  "Net-(X1-CC2)"
+ ],
+ "copper_layers": 2,
+ "footprints": 45,
+ "pads": 215,
+ "zones": 2,
+ "size_mm": [
+  37.8,
+  20.1
+ ],
+ "original_tracks": 343,
+ "original_vias": 32,
+ "connections_missing": 84,
+ "report_capped": false,
+ "board_min_track_width_mm": 0.19999999999999998,
+ "net_min_track_width_mm": {
+  "+3V3": 0.25,
+  "+5V": 0.25,
+  "/CAN Transiver/CAN1_RX": 0.25,
+  "/CAN Transiver/CAN1_S": 0.25,
+  "/CAN Transiver/CAN1_TX": 0.25,
+  "/CAN Transiver/CAN2_RX": 0.25,
+  "/CAN Transiver/CAN2_S": 0.25,
+  "/CAN Transiver/CAN2_TX": 0.25,
+  "/CAN1_H": 0.25,
+  "/CAN1_L": 0.25,
+  "/CAN2_H": 0.25,
+  "/CAN2_L": 0.25,
+  "/MCU/LED_TX": 0.25,
+  "/MCU/NRST": 0.25,
+  "/MCU/RX": 0.25,
+  "/MCU/SWCLK": 0.25,
+  "/MCU/SWDIO": 0.25,
+  "/MCU/TX": 0.25,
+  "Net-(D1-A)": 0.25,
+  "Net-(D2-A)": 0.25,
+  "Net-(D3-A)": 0.25,
+  "Net-(U1F-PF0{slash}OSC_IN)": 0.25,
+  "Net-(U1F-PF1{slash}OSC_OUT)": 0.25,
+  "Net-(X1-CC1)": 0.25,
+  "Net-(X1-CC2)": 0.25,
+  "+12V": 0.5
+ },
+ "width_rule_left_out": [],
+ "pair_max_skew_mm": {
+  "/USB": 1.03
+ },
+ "pair_nets": {
+  "/USB": [
+   "/USB_P",
+   "/USB_N"
+  ]
+ },
+ "pair_rule_left_out": [],
+ "no_dead_end_nets": [
+  "/USB_N",
+  "/USB_P"
+ ]
+}

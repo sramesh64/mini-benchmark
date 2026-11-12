@@ -1,0 +1,17 @@
+[   0.2] 215 pads, 29 nets to route, 1 nets with a pour; via 0.8/0.4
+[   0.2] board 37.8 x 20.1 mm, grid 0.05 mm, 782 x 428, classes [(0.125, 0.2), (0.4, 0.2), (0.1, 0.2), (0.25, 0.2)]
+[   0.4] fixed obstacles painted (288 shapes, 73 drawings)
+[   0.5] pad access: 0 pads leave by an escape track, 0 pads cannot be reached
+[   2.4] round 1: 29 nets routed again, 0 incomplete, overlap price 12
+[   3.8] round 2: 11 nets routed again, 0 incomplete, overlap price 17
+[   4.8] round 3: 8 nets routed again, 0 incomplete, overlap price 24
+[   4.9] round 4: 1 nets routed again, 0 incomplete, overlap price 34
+[   5.0] round 5: 2 nets routed again, 0 incomplete, overlap price 48
+[   5.0] round 6: 0 nets routed again, 0 incomplete, overlap price 68
+[   5.7]    made room for GND: routed again ['/CAN Transiver/CAN2_RX']
+[   5.7] pour net GND: 4 filled areas, 20 group(s) of pads left after 5 joins
+[   6.4] pour net GND: 7 filled areas, 1 group(s) of pads left after 20 joins
+[   6.9] pour net GND: 8 filled areas, 1 group(s) of pads left after 0 joins
+[   7.4] check 1: nets with violations [], open nets []
+[   7.4] clean
+[   7.4] done: 30 of 30 nets joined

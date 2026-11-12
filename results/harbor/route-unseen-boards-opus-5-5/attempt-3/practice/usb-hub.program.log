@@ -1,0 +1,31 @@
+'/LC', '/U7D-'] ok
+18:04:04: Debug: Adding duplicate image handler for 'PNG file'
+18:04:04: Debug: Adding duplicate image handler for 'JPEG file'
+18:04:04: Debug: Adding duplicate image handler for 'TIFF file'
+18:04:04: Debug: Adding duplicate image handler for 'GIF file'
+18:04:04: Debug: Adding duplicate image handler for 'PNM file'
+18:04:04: Debug: Adding duplicate image handler for 'PCX file'
+18:04:04: Debug: Adding duplicate image handler for 'IFF file'
+18:04:04: Debug: Adding duplicate image handler for 'Windows icon file'
+18:04:04: Debug: Adding duplicate image handler for 'Windows cursor file'
+18:04:04: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+18:04:04: Debug: Adding duplicate image handler for 'TGA file'
+18:04:04: Debug: Adding duplicate image handler for 'XPM file'
+[131.6] saved /run/hidden/usb-hub/routed.kicad_pcb
+[134.0] ripup /U3D+ ripped ['GND', '+3.3V'] ok
+[137.7] ripup Net-(D15-1) ripped ['/U3D+', 'Net-(D17-1)', '/U4D+', 'Net-(D18-1)'] ok
+[163.4] ripup GND ripped ['/U7D+', '/D-', '+5V', '/LED5', '/U3D-', '/U6D-', '/U7D-'] ok
+[167.1] done; routed 42 of 45 failed ['/U3D+', '/LC', '+3.3V']
+18:04:40: Debug: Adding duplicate image handler for 'PNG file'
+18:04:40: Debug: Adding duplicate image handler for 'JPEG file'
+18:04:40: Debug: Adding duplicate image handler for 'TIFF file'
+18:04:40: Debug: Adding duplicate image handler for 'GIF file'
+18:04:40: Debug: Adding duplicate image handler for 'PNM file'
+18:04:40: Debug: Adding duplicate image handler for 'PCX file'
+18:04:40: Debug: Adding duplicate image handler for 'IFF file'
+18:04:40: Debug: Adding duplicate image handler for 'Windows icon file'
+18:04:40: Debug: Adding duplicate image handler for 'Windows cursor file'
+18:04:40: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+18:04:40: Debug: Adding duplicate image handler for 'TGA file'
+18:04:40: Debug: Adding duplicate image handler for 'XPM file'
+[167.1] saved /run/hidden/usb-hub/routed.kicad_pcb

@@ -1,0 +1,11 @@
+[   0.1s] grid 783x574 pitch 0.100mm clr 0.150 via 0.40/0.30
+[   0.8s] setup done; classes [0.15, 0.2, 0.25]
+[   0.8s] nets to route: 56
+[   1.1s] routed 20/56 (20 ok)
+[   2.6s] routed 40/56 (40 ok)
+[  18.2s] pass 1: 49/56 complete
+[  27.5s] pass 2: 50/56 complete
+[  34.9s] pass 3: 50/56 complete
+[  41.8s] pair /D skew 5.33mm tol 0.50 -> lengthen /D+
+[  41.8s] pair /USB_D skew 4.92mm tol 0.98 -> lengthen /USB_D+
+[  41.9s] done

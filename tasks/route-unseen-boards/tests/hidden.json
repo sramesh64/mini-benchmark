@@ -1,0 +1,15 @@
+{
+ "run": [
+  "bbq20-keyboard",
+  "macro-pad",
+  "keyboard-featherwing",
+  "cpld-test-board"
+ ],
+ "scored": [
+  "bbq20-keyboard",
+  "macro-pad",
+  "keyboard-featherwing",
+  "cpld-test-board"
+ ],
+ "minutes_per_board": 8
+}

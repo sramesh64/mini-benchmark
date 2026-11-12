@@ -1,0 +1,32 @@
+ overlap price 190
+[  80.8] round 10: 20 nets routed again, 0 incomplete, overlap price 267
+[  86.1] round 11: 18 nets routed again, 0 incomplete, overlap price 374
+[  89.3] round 12: 14 nets routed again, 0 incomplete, overlap price 524
+[  91.2] round 13: 6 nets routed again, 0 incomplete, overlap price 734
+[  92.5] round 14: 4 nets routed again, 0 incomplete, overlap price 1028
+[  94.5] round 15: 4 nets routed again, 0 incomplete, overlap price 1440
+[  96.5] round 16: 4 nets routed again, 0 incomplete, overlap price 2000
+[  98.1] round 17: 4 nets routed again, 0 incomplete, overlap price 2000
+[  99.1] round 18: 2 nets routed again, 0 incomplete, overlap price 2000
+[ 100.4] round 19: 2 nets routed again, 0 incomplete, overlap price 2000
+[ 100.5] taken out: /MD2
+[ 102.6] second try for /MD2: still open
+[ 103.5]    made room for GND: routed again ['/MA16']
+[ 103.5] pour net GND: 36 filled areas, 16 group(s) of pads left after 3 joins
+[ 104.4]    made room for GND: routed again ['/MA0']
+[ 104.4] pour net GND: 36 filled areas, 11 group(s) of pads left after 6 joins
+[ 105.4]    made room for GND: routed again ['/PC-AEN']
+[ 105.4] pour net GND: 40 filled areas, 3 group(s) of pads left after 8 joins
+[ 106.3]    made room for GND: routed again ['/PC-AEN']
+[ 106.3] pour net GND: 41 filled areas, 3 group(s) of pads left after 1 joins
+[ 106.9] pour net GND: 42 filled areas, 2 group(s) of pads left after 2 joins
+[ 107.5] pour net GND: 43 filled areas, 1 group(s) of pads left after 1 joins
+[ 108.1] pour net GND: 43 filled areas, 1 group(s) of pads left after 0 joins
+[ 108.7] check 1: nets with violations [], open nets ['/MD2']
+[ 109.3]    made room for /MD2: routed again ['/MA15']
+[ 109.3] second try for /MD2: joined
+[ 110.0] pour net GND: 42 filled areas, 1 group(s) of pads left after 1 joins
+[ 110.6] pour net GND: 43 filled areas, 1 group(s) of pads left after 0 joins
+[ 111.2] check 2: nets with violations [], open nets []
+[ 111.2] clean
+[ 111.2] done: 110 of 110 nets joined

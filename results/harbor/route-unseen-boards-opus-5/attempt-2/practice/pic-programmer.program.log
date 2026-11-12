@@ -1,0 +1,8 @@
+pass1 routed 86/86 failed 0 t=3.0
+round 1: bad=7 open=12 cost=13 t=29.9
+round 2: bad=7 open=11 cost=12 t=58.3
+round 3: bad=7 open=11 cost=12 t=99.5
+round 4: bad=7 open=11 cost=12 t=142.1
+round 5: bad=7 open=11 cost=12 t=216.3
+round 6: bad=7 open=11 cost=12 t=296.0
+round 7: bad=7 open=11 cost=12 t=376.1

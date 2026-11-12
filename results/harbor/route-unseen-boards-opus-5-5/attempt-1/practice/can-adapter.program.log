@@ -1,0 +1,12 @@
+/MCU/LED_RX', '/CAN2_H', '/CAN1_H']
+[333.0] pass 55 good 15 bad 15 ['/USB_N', 'Net-(X1-CC1)', '+5V', '/MCU/RX', '+3V3', '/CAN Transiver/CAN2_RX', 'Net-(U1F-PF0{slash}OSC_IN)', '/CAN Transiver/CAN1_TX', '/MCU/LED_TX', '/CAN Transiver/CAN1_RX', '/MCU/NRST', '/CAN Transiver/CAN1_S', 'Net-(D2-A)', '/MCU/TX', 'Net-(D1-A)']
+[333.0] tune failed /USB_P 5.075735931288042
+[338.5] pass 56 good 19 bad 11 ['/USB_P', 'Net-(X1-CC2)', '/MCU/RX', 'GND', '/CAN Transiver/CAN2_TX', 'Net-(D3-A)', 'Net-(U1F-PF1{slash}OSC_OUT)', '/MCU/LED_RX', '/CAN Transiver/CAN1_S', '/MCU/SWCLK', '/CAN2_L']
+[344.2] pass 57 good 14 bad 16 ['/USB_N', 'Net-(X1-CC1)', '+5V', '/MCU/RX', 'Net-(U1F-PF1{slash}OSC_OUT)', 'Net-(U1F-PF0{slash}OSC_IN)', '/MCU/LED_TX', '/CAN Transiver/CAN2_TX', '/CAN Transiver/CAN1_RX', 'Net-(D2-A)', '/MCU/SWDIO', '/CAN2_H', '/MCU/TX', '/CAN1_H', 'Net-(D1-A)', '/CAN1_L']
+[344.3] tune failed /USB_N 4.331980515339423
+[351.1] pass 58 good 19 bad 11 ['/USB_N', 'Net-(X1-CC2)', '+5V', '+3V3', 'Net-(D3-A)', '/CAN Transiver/CAN1_TX', '/MCU/LED_RX', '/CAN Transiver/CAN2_S', '/MCU/NRST', '/CAN2_H', '/CAN1_H']
+[356.5] pass 59 good 22 bad 8 ['/USB_P', 'Net-(X1-CC1)', 'GND', '/CAN Transiver/CAN2_RX', '/CAN Transiver/CAN2_S', '/CAN2_H', '/MCU/NRST', '/CAN1_H']
+[362.2] pass 60 good 16 bad 14 ['/USB_N', '+5V', 'Net-(X1-CC1)', '/MCU/RX', 'Net-(U1F-PF1{slash}OSC_OUT)', 'Net-(U1F-PF0{slash}OSC_IN)', '/CAN Transiver/CAN1_TX', '/MCU/NRST', '/CAN Transiver/CAN1_RX', 'Net-(D3-A)', '/CAN Transiver/CAN2_TX', 'Net-(D2-A)', '/MCU/TX', '/CAN2_L']
+[367.1] pass 61 good 20 bad 10 ['Net-(X1-CC2)', '/USB_P', '+3V3', '/CAN Transiver/CAN1_TX', '/CAN Transiver/CAN2_S', '/MCU/LED_RX', 'Net-(D2-A)', '/MCU/SWCLK', '/MCU/SWDIO', '/CAN1_L']
+[370.0] pass 62 good 14 bad 16 ['/USB_P', '+5V', 'Net-(U1F-PF1{slash}OSC_OUT)', '/CAN Transiver/CAN2_RX', '/MCU/LED_RX', '/MCU/LED_TX', '/MCU/SWCLK', '/CAN2_H', '/CAN Transiver/CAN1_S', '/MCU/SWDIO', '/CAN1_H', '/MCU/TX', '/CAN2_L', '/CAN1_L', 'Net-(D1-A)', '+12V']
+[370.0] done 24 / 30

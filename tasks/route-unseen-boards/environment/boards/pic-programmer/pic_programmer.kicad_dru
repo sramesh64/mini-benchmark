@@ -1,0 +1,18 @@
+(version 1)
+# Minimum track widths, net by net: no track may be narrower than the narrowest track the
+# board's designer used on that net. Net names are spelled as in the board file.
+(rule "tracks at least 0.35 mm wide (1 net)"
+  (condition "A.NetName == '/pic_sockets/VCC_PIC'")
+  (constraint track_width (min 0.35mm)))
+(rule "tracks at least 0.4 mm wide (1 net)"
+  (condition "A.NetName == '/DATA-RB7'")
+  (constraint track_width (min 0.4mm)))
+(rule "tracks at least 0.4318 mm wide (1 net)"
+  (condition "A.NetName == '/CLOCK-RB6'")
+  (constraint track_width (min 0.4318mm)))
+(rule "tracks at least 0.5 mm wide (29 nets)"
+  (condition "A.NetName == '/PC-CLOCK-OUT' || A.NetName == '/PC-DATA-IN' || A.NetName == '/PC-DATA-OUT' || A.NetName == '/VPP_ON' || A.NetName == '/VPP{slash}MCLR' || A.NetName == 'Net-(C5-Pad1)' || A.NetName == 'Net-(D1-A)' || A.NetName == 'Net-(D1-K)' || A.NetName == 'Net-(D10-A)' || A.NetName == 'Net-(D11-A)' || A.NetName == 'Net-(D11-K)' || A.NetName == 'Net-(D12-A)' || A.NetName == 'Net-(D2-A)' || A.NetName == 'Net-(D4-A)' || A.NetName == 'Net-(D6-A)' || A.NetName == 'Net-(D8-A)' || A.NetName == 'Net-(D9-A)' || A.NetName == 'Net-(Q1-B)' || A.NetName == 'Net-(Q2-B)' || A.NetName == 'Net-(Q2-C)' || A.NetName == 'Net-(Q3-B)' || A.NetName == 'Net-(R12-Pad1)' || A.NetName == 'Net-(R13-Pad1)' || A.NetName == 'Net-(R15-Pad1)' || A.NetName == 'Net-(R16-Pad1)' || A.NetName == 'Net-(R8-Pad1)' || A.NetName == 'Net-(U4-FB+)' || A.NetName == 'Net-(U4-Vc)' || A.NetName == 'VPP'")
+  (constraint track_width (min 0.5mm)))
+(rule "tracks at least 0.8 mm wide (1 net)"
+  (condition "A.NetName == 'VCC'")
+  (constraint track_width (min 0.8mm)))

@@ -1,0 +1,206 @@
+{
+ "reward": 0.9,
+ "full_pass": 0,
+ "nets_to_route": 30,
+ "nets_good": 27,
+ "nets_open": 2,
+ "nets_with_violations": 1,
+ "other_nets_broken": 0,
+ "violations": 9,
+ "tracks_and_vias": 756,
+ "connections_missing": 3,
+ "rounds": 1,
+ "parts_to_place": 0,
+ "placement_violations": 0,
+ "detail": {
+  "good_nets": [
+   "+12V",
+   "+3V3",
+   "+5V",
+   "/CAN Transiver/CAN1_RX",
+   "/CAN Transiver/CAN1_S",
+   "/CAN Transiver/CAN1_TX",
+   "/CAN Transiver/CAN2_RX",
+   "/CAN Transiver/CAN2_S",
+   "/CAN Transiver/CAN2_TX",
+   "/CAN1_H",
+   "/CAN1_L",
+   "/CAN2_H",
+   "/CAN2_L",
+   "/MCU/LED_RX",
+   "/MCU/LED_TX",
+   "/MCU/NRST",
+   "/MCU/RX",
+   "/MCU/SWCLK",
+   "/MCU/SWDIO",
+   "/MCU/TX",
+   "/USB_P",
+   "Net-(D1-A)",
+   "Net-(D2-A)",
+   "Net-(D3-A)",
+   "Net-(U1F-PF0{slash}OSC_IN)",
+   "Net-(U1F-PF1{slash}OSC_OUT)",
+   "Net-(X1-CC2)"
+  ],
+  "open_nets": [
+   "/USB_N",
+   "Net-(X1-CC1)"
+  ],
+  "violations": [
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      107.605,
+      134.21
+     ],
+     [
+      108.175,
+      133.475
+     ]
+    ]
+   }
+  ],
+  "problems": []
+ }
+}

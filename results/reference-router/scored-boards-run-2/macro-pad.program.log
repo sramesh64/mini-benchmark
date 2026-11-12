@@ -1,0 +1,24 @@
+[   0.1] 168 pads, 37 nets to route, 1 nets with a pour; via 0.85/0.4
+[   0.1] board 135.1 x 47.1 mm, grid 0.1 mm, 1365 x 486, classes [(0.25, 0.25), (0.425, 0.25), (0.127, 0.25)]
+[   0.2] fixed obstacles painted (356 shapes, 0 drawings)
+[   0.2] pad access: 0 pads leave by an escape track, 0 pads cannot be reached
+[   2.8] round 1: 37 nets routed again, 0 incomplete, overlap price 12
+[   3.9] round 2: 12 nets routed again, 0 incomplete, overlap price 17
+[   4.2] round 3: 3 nets routed again, 0 incomplete, overlap price 24
+[   4.4] round 4: 2 nets routed again, 0 incomplete, overlap price 34
+[   4.7] round 5: 2 nets routed again, 0 incomplete, overlap price 48
+[   4.8] round 6: 0 nets routed again, 0 incomplete, overlap price 68
+[   5.3]    made room for GND: routed again ['Net-(C3-Pad2)']
+[   5.3] pour net GND: 8 filled areas, 6 group(s) of pads left after 1 joins
+[   7.8]    a join for ['U1.15'] is laid across other nets; they are routed again
+[   7.8] pour net GND: 9 filled areas, 5 group(s) of pads left after 2 joins
+[   7.9] round 1: 2 nets routed again, 0 incomplete, overlap price 12
+[   8.0] round 2: 2 nets routed again, 0 incomplete, overlap price 17
+[   8.0] round 3: 0 nets routed again, 0 incomplete, overlap price 24
+[   8.6]    made room for GND: routed again ['Net-(SW6-Pad1)']
+[   8.6] pour net GND: 9 filled areas, 3 group(s) of pads left after 2 joins
+[   9.1] pour net GND: 9 filled areas, 1 group(s) of pads left after 2 joins
+[   9.6] pour net GND: 10 filled areas, 1 group(s) of pads left after 0 joins
+[  10.1] check 1: nets with violations [], open nets []
+[  10.1] clean
+[  10.1] done: 38 of 38 nets joined

@@ -1,0 +1,117 @@
+{
+ "reward": 0.8,
+ "full_pass": 0,
+ "nets_to_route": 45,
+ "nets_good": 36,
+ "nets_open": 5,
+ "nets_with_violations": 4,
+ "other_nets_broken": 0,
+ "violations": 4,
+ "tracks_and_vias": 817,
+ "connections_missing": 27,
+ "rounds": 1,
+ "parts_to_place": 0,
+ "placement_violations": 0,
+ "detail": {
+  "good_nets": [
+   "+1V8",
+   "/D-",
+   "/LC",
+   "/LED1",
+   "/LED2",
+   "/LED3",
+   "/LED4",
+   "/LED5",
+   "/LED6",
+   "/LED7",
+   "/U1D+",
+   "/U1D-",
+   "/U2D+",
+   "/U2D-",
+   "/U3D+",
+   "/U4D+",
+   "/U4D-",
+   "/U5D+",
+   "/U6D-",
+   "/U7D+",
+   "/U7D-",
+   "/XI",
+   "/XO",
+   "Net-(D15-1)",
+   "Net-(D16-1)",
+   "Net-(D19-1)",
+   "Net-(D20-1)",
+   "Net-(D21-1)",
+   "Net-(J1-Pin_1)",
+   "Net-(U1-EXT_RST#)",
+   "Net-(U1-REXT)",
+   "Net-(U1-TEST1#)",
+   "Net-(U1-TEST3#)",
+   "Net-(U1-VBUS_SENSE)",
+   "Net-(U2-CAP)",
+   "VIN"
+  ],
+  "open_nets": [
+   "+3.3V",
+   "+5V",
+   "GND",
+   "Net-(D17-1)",
+   "Net-(D18-1)"
+  ],
+  "violations": [
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U5D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -1.0021 mm; target net length 7.4084 mm (from /U5D+); actual 6.4063 mm)",
+    "nets": [
+     "/U5D-"
+    ],
+    "at": [
+     [
+      146.501,
+      101.7
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -10.0951 mm; target net length 23.3875 mm (from /D-); actual 13.2924 mm)",
+    "nets": [
+     "/D+"
+    ],
+    "at": [
+     [
+      148.151,
+      110.55
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U3D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -3.0900 mm; target net length 18.0345 mm (from /U3D+); actual 14.9445 mm)",
+    "nets": [
+     "/U3D-"
+    ],
+    "at": [
+     [
+      155.051,
+      98.75
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U6D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -1.3086 mm; target net length 4.6349 mm (from /U6D-); actual 3.3264 mm)",
+    "nets": [
+     "/U6D+"
+    ],
+    "at": [
+     [
+      146.851,
+      99.4
+     ]
+    ]
+   }
+  ],
+  "problems": []
+ }
+}

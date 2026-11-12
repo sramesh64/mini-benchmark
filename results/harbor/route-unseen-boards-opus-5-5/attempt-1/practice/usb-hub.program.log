@@ -1,0 +1,19 @@
+0171579
+[326.3] pass 34 good 24 bad 21 ['/U1D-', '+3.3V', 'GND', '/U3D+', '/D-', '/U4D-', '/XO', 'Net-(U1-VBUS_SENSE)', '/U5D+', '/U2D+', '/U6D-', '/LC', 'Net-(D19-1)', '/LED1', '/LED2', '/U7D-', '/LED6', '/LED7', 'Net-(U1-TEST3#)', '/LED5']
+[326.5] tune failed /U1D+ 0.7822330470336016
+[332.7] tune failed /D- 6.40563491861038
+[336.4] pass 35 good 23 bad 22 ['/U1D+', '/D-', 'GND', '+1V8', 'Net-(U2-CAP)', 'Net-(U1-VBUS_SENSE)', '+5V', '/U4D-', 'Net-(D17-1)', 'Net-(D18-1)', '/U5D-', '/U6D-', '/U2D+', 'Net-(D19-1)', '/U3D-', '/U7D-', '/LED6', 'Net-(U1-TEST3#)', '/XI', '/LED7']
+[343.3] tune failed /D- 1.6677669529663284
+[346.2] tune failed /U7D+ 3.103553390593314
+[346.7] pass 36 good 21 bad 24 ['/D-', '/U7D+', 'Net-(U1-VBUS_SENSE)', 'Net-(U2-CAP)', '+5V', 'Net-(U1-EXT_RST#)', '+3.3V', '/XO', '/U2D+', 'Net-(D18-1)', '/U6D-', '/U6D+', 'Net-(D19-1)', '/LC', '/U3D-', 'Net-(D16-1)', 'Net-(D15-1)', 'Net-(D20-1)', 'Net-(D21-1)', '/LED6']
+[352.3] tune failed /U2D- 1.2807611844575066
+[354.6] tune failed /D- 1.562741699796904
+[355.1] tune failed /U3D- 0.2541630560343098
+[356.9] pass 37 good 21 bad 24 ['/D-', 'Net-(U1-EXT_RST#)', 'GND', '+5V', '/U1D+', '/U2D-', '/U1D-', '+1V8', '/U6D-', '/XO', '/U4D-', 'Net-(D17-1)', 'Net-(D18-1)', '/U5D+', 'Net-(D19-1)', '/U3D-', '/LED6', '/LED1', 'Net-(U1-TEST3#)', '/U7D-']
+[357.2] tune failed /U1D+ 0.7822330470336016
+[361.0] tune failed /U6D+ 1.5363961030678968
+[361.8] tune failed /U5D- 2.587867965643992
+[363.6] pass 38 good 21 bad 24 ['/U1D+', '+5V', 'GND', 'Net-(U2-CAP)', '+1V8', '+3.3V', 'Net-(D17-1)', '/XO', '/U6D+', '/U5D-', '/U2D+', 'Net-(D19-1)', 'Net-(D16-1)', '/LC', '/LED6', '/LED1', '/U7D-', 'Net-(U1-TEST3#)', '/LED2', '/LED7']
+[368.7] tune failed /U6D+ 1.5071067811865715
+[370.2] pass 39 good 12 bad 33 ['+5V', 'Net-(U1-EXT_RST#)', 'Net-(U1-VBUS_SENSE)', '+3.3V', '+1V8', '/U1D-', '/U2D-', '/XO', '/U6D+', 'Net-(D19-1)', '/U3D-', 'Net-(D16-1)', '/U5D+', '/D+', 'Net-(D15-1)', '/LC', '/LED6', '/LED1', '/U7D-', '/LED2']
+[370.2] done 37 / 45

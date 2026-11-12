@@ -1,0 +1,17 @@
+(version 1)
+# Minimum track widths, net by net: no track may be narrower than the narrowest track the
+# board's designer used on that net. Net names are spelled as in the board file.
+(rule "tracks at least 0.2 mm wide (7 nets)"
+  (condition "A.NetName == '/D+' || A.NetName == '/D-' || A.NetName == '/USB_D+' || A.NetName == '/USB_D-' || A.NetName == 'Net-(C7-Pad1)' || A.NetName == 'Net-(J3-PadA5)' || A.NetName == 'Net-(J3-PadB5)'")
+  (constraint track_width (min 0.2mm)))
+(rule "tracks at least 0.25 mm wide (1 net)"
+  (condition "A.NetName == '+5V'")
+  (constraint track_width (min 0.25mm)))
+# Differential pairs: the two tracks of a pair must match in length about as closely as the
+# board's designer matched them (the designer's mismatch plus 25%, and never tighter than 0.5 mm).
+(rule "pair /D: the two tracks within 0.5 mm of each other in length"
+  (condition "A.inDiffPair('/D')")
+  (constraint skew (max 0.5mm)))
+(rule "pair /USB_D: the two tracks within 0.98 mm of each other in length"
+  (condition "A.inDiffPair('/USB_D')")
+  (constraint skew (max 0.98mm)))

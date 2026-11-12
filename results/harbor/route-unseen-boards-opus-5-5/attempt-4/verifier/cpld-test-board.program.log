@@ -1,0 +1,8 @@
+[0.1] grid 1199 1176 res 0.0851 clr 0.25
+[0.2] via 0.889 0.508
+[1.3] classes ready [0.2, 0.216, 0.4, 0.4445, 0.508]
+[1.3] loaded; nets to route 83
+[10.4] first pass done; failed 0 of 83
+[10.4] saved 83 nets
+[10.7] final routed 83 / 83
+[10.8] saved 83 nets

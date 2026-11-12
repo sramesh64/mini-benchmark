@@ -1,0 +1,23 @@
+[0.2] grid 1227 1149 res 0.0946 clr 0.254
+[0.3] via 0.9 0.5
+[1.6] classes ready [0.15, 0.1905, 0.2, 0.216, 0.45]
+[1.6] loaded; nets to route 110
+[187.5] first pass done; failed 12 of 110
+[187.6] saved 98 nets
+[190.4] saved 99 nets
+[190.4] iter 1 routed 99 / 110 queue 11
+[199.6] iter 2 routed 99 / 110 queue 11
+[210.0] saved 100 nets
+[210.0] iter 3 routed 100 / 110 queue 10
+[221.3] iter 4 routed 100 / 110 queue 10
+[234.3] iter 5 routed 100 / 110 queue 10
+[261.9] iter 6 routed 100 / 110 queue 10
+[275.8] saved 101 nets
+[275.8] iter 8 routed 101 / 110 queue 9
+[323.9] iter 9 routed 100 / 110 queue 10
+[326.8] iter 10 routed 101 / 110 queue 9
+[345.6] still failed after rip VCC 13
+[365.8] iter 11 routed 100 / 110 queue 10
+[377.2] iter 12 routed 87 / 110 queue 23
+[377.7] final routed 101 / 110
+[377.7] saved 101 nets

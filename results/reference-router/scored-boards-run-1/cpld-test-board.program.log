@@ -1,0 +1,15 @@
+[   0.1] 282 pads, 82 nets to route, 1 nets with a pour; via 0.9/0.6
+[   0.1] board 101.7 x 99.8 mm, grid 0.1 mm, 1032 x 1012, classes [(0.508, 0.2), (0.45, 0.2), (0.216, 0.2), (0.4, 0.2), (0.216, 0.25), (0.45, 0.25), (0.2, 0.2), (0.2, 0.25)]
+[   0.5] fixed obstacles painted (578 shapes, 18 drawings)
+[   0.6] pad access: 0 pads leave by an escape track, 0 pads cannot be reached
+[   5.0] round 1: 82 nets routed again, 0 incomplete, overlap price 12
+[   7.4] round 2: 23 nets routed again, 0 incomplete, overlap price 17
+[   8.5] round 3: 8 nets routed again, 0 incomplete, overlap price 24
+[   8.8] round 4: 3 nets routed again, 0 incomplete, overlap price 34
+[   9.0] round 5: 1 nets routed again, 0 incomplete, overlap price 48
+[   9.1] round 6: 0 nets routed again, 0 incomplete, overlap price 68
+[   9.8] pour net GND: 16 filled areas, 1 group(s) of pads left after 6 joins
+[  10.4] pour net GND: 16 filled areas, 1 group(s) of pads left after 0 joins
+[  11.0] check 1: nets with violations [], open nets []
+[  11.0] clean
+[  11.0] done: 83 of 83 nets joined

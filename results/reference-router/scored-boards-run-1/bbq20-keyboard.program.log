@@ -1,0 +1,30 @@
+es painted (474 shapes, 0 drawings)
+[   0.4] pad access: 0 pads leave by an escape track, 0 pads cannot be reached
+[   7.6] round 1: 55 nets routed again, 0 incomplete, overlap price 12
+[  15.6] round 2: 44 nets routed again, 0 incomplete, overlap price 17
+[  25.1] round 3: 41 nets routed again, 0 incomplete, overlap price 24
+[  33.9] round 4: 36 nets routed again, 0 incomplete, overlap price 34
+[  42.5] round 5: 26 nets routed again, 0 incomplete, overlap price 48
+[  47.9] round 6: 15 nets routed again, 0 incomplete, overlap price 68
+[  51.8] round 7: 6 nets routed again, 0 incomplete, overlap price 96
+[  55.2] round 8: 6 nets routed again, 0 incomplete, overlap price 135
+[  58.6] round 9: 5 nets routed again, 0 incomplete, overlap price 190
+[  61.4] round 10: 5 nets routed again, 0 incomplete, overlap price 267
+[  61.6] round 11: 0 nets routed again, 0 incomplete, overlap price 374
+[  61.7] pair /D+ / /D-: lengths 2.32 and 3.12 mm, limit 0.5, added 0.79 mm to /D+
+[  62.8]    made room for GND: routed again ['/COL3']
+[  62.8] pour net GND: 14 filled areas, 15 group(s) of pads left after 2 joins
+[  63.7]    made room for GND: routed again ['/COL5']
+[  63.7] pour net GND: 14 filled areas, 14 group(s) of pads left after 1 joins
+[  64.8]    made room for GND: routed again ['+1V8']
+[  64.8] pour net GND: 12 filled areas, 11 group(s) of pads left after 2 joins
+[  66.9]    made room for GND: routed again ['/ROW7', '+3V3']
+[  66.9] pour net GND: 14 filled areas, 9 group(s) of pads left after 5 joins
+[  68.6]    made room for GND: routed again ['/Keyboard/TP_SCL_1V8']
+[  68.6] pour net GND: 16 filled areas, 3 group(s) of pads left after 7 joins
+[  69.6]    made room for GND: routed again ['/COL4', 'Net-(C12-Pad1)']
+[  69.6] pour net GND: 14 filled areas, 1 group(s) of pads left after 2 joins
+[  70.3] pour net GND: 14 filled areas, 1 group(s) of pads left after 0 joins
+[  70.9] check 1: nets with violations [], open nets []
+[  70.9] clean
+[  70.9] done: 56 of 56 nets joined

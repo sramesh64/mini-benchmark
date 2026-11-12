@@ -1,0 +1,32 @@
+tch 0.05 nets 30
+[0.4] static built
+[2.7] ripup Net-(X1-CC2) ripped ['/USB_P'] ok
+[3.1] unroutable /CAN Transiver/CAN1_RX
+[11.9] ripup +3V3 ripped ['Net-(U1F-PF0{slash}OSC_IN)', '+5V', '/MCU/SWCLK', '/CAN2_L', '/CAN Transiver/CAN1_S', '/CAN Transiver/CAN2_S'] ok
+[14.8] ripup /USB_P ripped ['Net-(X1-CC2)'] ok
+[19.2] ripup /CAN Transiver/CAN1_S ripped ['+3V3', 'GND', '/CAN1_L'] ok
+[21.5] ripup Net-(X1-CC2) ripped ['+5V', '/USB_P'] ok
+[23.5] ripup /CAN1_L ripped ['GND'] ok
+[24.2] ripup /USB_P ripped ['/USB_N'] ok
+[33.6] ripup GND ripped ['Net-(U1F-PF0{slash}OSC_IN)', 'Net-(U1F-PF1{slash}OSC_OUT)', '+3V3', '+5V', 'Net-(X1-CC1)', '/CAN Transiver/CAN2_TX', '/CAN Transiver/CAN2_S', '/MCU/NRST'] ok
+[34.9] ripup /USB_N ripped ['/MCU/RX', '/USB_P'] ok
+[37.9] ripup /USB_P ripped ['/MCU/RX', '/USB_N'] ok
+[39.7] ripup /USB_N ripped ['/MCU/RX', '/USB_P', '/MCU/TX'] ok
+[41.8] ripup /USB_P ripped ['/MCU/RX', '/USB_N'] ok
+[43.7] ripup /USB_N ripped ['/MCU/RX', '/MCU/TX', '/USB_P'] ok
+[44.7] ripup /USB_P ripped ['/MCU/RX', '/USB_N'] ok
+[46.6] ripup /USB_N ripped ['/USB_P'] ok
+[46.7] done; routed 28 of 30 failed ['/USB_P', '/CAN Transiver/CAN1_RX']
+18:05:28: Debug: Adding duplicate image handler for 'PNG file'
+18:05:28: Debug: Adding duplicate image handler for 'JPEG file'
+18:05:28: Debug: Adding duplicate image handler for 'TIFF file'
+18:05:28: Debug: Adding duplicate image handler for 'GIF file'
+18:05:28: Debug: Adding duplicate image handler for 'PNM file'
+18:05:28: Debug: Adding duplicate image handler for 'PCX file'
+18:05:28: Debug: Adding duplicate image handler for 'IFF file'
+18:05:28: Debug: Adding duplicate image handler for 'Windows icon file'
+18:05:28: Debug: Adding duplicate image handler for 'Windows cursor file'
+18:05:28: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+18:05:28: Debug: Adding duplicate image handler for 'TGA file'
+18:05:28: Debug: Adding duplicate image handler for 'XPM file'
+[46.7] saved /run/hidden/can-adapter/routed.kicad_pcb

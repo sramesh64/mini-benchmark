@@ -1,0 +1,9 @@
+[   0.0s] grid 419x242 pitch 0.100mm clr 0.200 via 0.40/0.30
+[   0.4s] setup done; classes [0.2, 0.25, 0.5]
+[   0.4s] nets to route: 30
+[   0.6s] routed 20/30 (18 ok)
+[   2.9s] pass 1: 27/30 complete
+[   3.7s] pass 2: 27/30 complete
+[   4.7s] pass 3: 27/30 complete
+[   5.7s] pair /USB skew 5.27mm tol 1.03 -> lengthen /USB_N
+[   5.7s] done

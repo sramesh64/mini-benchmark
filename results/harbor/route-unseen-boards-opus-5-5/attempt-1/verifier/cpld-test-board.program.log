@@ -1,0 +1,19 @@
+[0.0] clr 0.25 via 0.9 0.6 minw 0.254
+[0.0] pairs []
+[0.0] grid 0.127 819 803
+[0.4] static built
+[3.9] pass 1 good 83 bad 0 []
+14:50:20: Debug: Adding duplicate image handler for 'PNG file'
+14:50:20: Debug: Adding duplicate image handler for 'JPEG file'
+14:50:20: Debug: Adding duplicate image handler for 'TIFF file'
+14:50:20: Debug: Adding duplicate image handler for 'GIF file'
+14:50:20: Debug: Adding duplicate image handler for 'PNM file'
+14:50:20: Debug: Adding duplicate image handler for 'PCX file'
+14:50:20: Debug: Adding duplicate image handler for 'IFF file'
+14:50:20: Debug: Adding duplicate image handler for 'Windows icon file'
+14:50:20: Debug: Adding duplicate image handler for 'Windows cursor file'
+14:50:20: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+14:50:20: Debug: Adding duplicate image handler for 'TGA file'
+14:50:20: Debug: Adding duplicate image handler for 'XPM file'
+[4.0] saved
+[4.0] done 83 / 83

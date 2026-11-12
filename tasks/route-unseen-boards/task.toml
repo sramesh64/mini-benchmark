@@ -1,0 +1,51 @@
+schema_version = "1.4"
+# The verifier gets one folder from the agent's container: the routing program.
+artifacts = [
+  { source = "/home/agent/work/router" },
+]
+
+[metadata]
+name = "route-unseen-boards"
+description = "Write a program that routes real KiCad boards. It is run on boards the agent has not seen and graded by KiCad's own design-rule check."
+difficulty = "hard"
+category = "engineering"
+tags = ["electronics", "pcb-layout", "routing", "kicad", "held-out"]
+
+[verifier]
+timeout_sec = 3180.0
+environment_mode = "separate"
+user = "root"
+# The agent's program runs in the verifier container: it gets no network there either.
+network_mode = "no-network"
+
+# Make sure there is a folder to collect even if the agent saved nothing.
+[[verifier.collect]]
+command = "/opt/boardcheck/ensure_output.sh"
+user = "root"
+timeout_sec = 60.0
+
+[verifier.env]
+
+[verifier.environment]
+build_timeout_sec = 1800.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+
+[agent]
+timeout_sec = 4500.0
+user = "agent"
+# While the agent works, the container can reach the model API and nothing else.
+network_mode = "allowlist"
+allowed_hosts = []
+
+[environment]
+build_timeout_sec = 1800.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]

@@ -1,0 +1,23 @@
+{
+  "bbq20_keyboard_complete": 0,
+  "bbq20_keyboard_reward": 0.5091,
+  "bbq20_keyboard_seconds": 373,
+  "bbq20_keyboard_timed_out": 0,
+  "boards_complete": 0,
+  "boards_scored": 4,
+  "cpld_test_board_complete": 0,
+  "cpld_test_board_reward": 0.6627,
+  "cpld_test_board_seconds": 399,
+  "cpld_test_board_timed_out": 0,
+  "full_pass": 0,
+  "keyboard_featherwing_complete": 0,
+  "keyboard_featherwing_reward": 0.4815,
+  "keyboard_featherwing_seconds": 409,
+  "keyboard_featherwing_timed_out": 0,
+  "macro_pad_complete": 0,
+  "macro_pad_reward": 0.3421,
+  "macro_pad_seconds": 364,
+  "macro_pad_timed_out": 0,
+  "reward": 0.4989,
+  "submitted": 1
+}

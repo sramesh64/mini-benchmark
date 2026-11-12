@@ -1,0 +1,437 @@
+{
+ "reward": 0.8916,
+ "full_pass": 0,
+ "nets_to_route": 83,
+ "nets_good": 74,
+ "nets_open": 0,
+ "nets_with_violations": 9,
+ "other_nets_broken": 0,
+ "violations": 20,
+ "tracks_and_vias": 2720,
+ "connections_missing": 0,
+ "rounds": 1,
+ "parts_to_place": 0,
+ "placement_violations": 0,
+ "detail": {
+  "good_nets": [
+   "/+12BATT",
+   "/CSMEM",
+   "/DAT0",
+   "/DAT1",
+   "/DAT2",
+   "/DAT3",
+   "/DAT4",
+   "/DAT5",
+   "/DAT6",
+   "/DAT7",
+   "/DCLK",
+   "/LED1",
+   "/LED2",
+   "/MA0",
+   "/MA1",
+   "/MA2",
+   "/MA3",
+   "/MA4",
+   "/MA5",
+   "/MA6",
+   "/MA7",
+   "/MD0",
+   "/MD1",
+   "/MD10",
+   "/MD11",
+   "/MD12",
+   "/MD13",
+   "/MD2",
+   "/MD3",
+   "/MD4",
+   "/MD5",
+   "/MD6",
+   "/MD7",
+   "/MD8",
+   "/MD9",
+   "/OEMEM",
+   "/PARBUS0",
+   "/PARBUS1",
+   "/PARBUS2",
+   "/PARBUS4",
+   "/PARBUS5",
+   "/PARBUS6",
+   "/PAR_AUX0{slash}STROBE*",
+   "/PAR_AUX1{slash}ERROR*",
+   "/PAR_AUX2{slash}AUTOLF*",
+   "/PAR_AUX3{slash}SELECT*",
+   "/PAR_AUX4{slash}PE",
+   "/PAR_AUX5{slash}BUSY*",
+   "/PAR_AUX6{slash}ACK",
+   "/PAR_AUX7{slash}INIT",
+   "/PAR_AUX8{slash}SELECT",
+   "/PIN_TEST0",
+   "/PIN_TEST1",
+   "/R{slash}W-A14",
+   "/SW0",
+   "/SW1",
+   "/TCK",
+   "/TDO",
+   "/TMS",
+   "/XIN{slash}CLK",
+   "GND",
+   "Net-(C14-Pad1)",
+   "Net-(C14-Pad2)",
+   "Net-(C2-Pad1)",
+   "Net-(C2-Pad2)",
+   "Net-(C4-Pad1)",
+   "Net-(C5-Pad1)",
+   "Net-(D2-A)",
+   "Net-(D3-A)",
+   "Net-(K1-PM)",
+   "Net-(U1-VREF)",
+   "Net-(U6-+)",
+   "Net-(U6--)",
+   "Net-(U6-OUT)"
+  ],
+  "open_nets": [],
+  "violations": [
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'pwr' clearance 0.2000 mm; actual 0.1046 mm)",
+    "nets": [
+     "+12V"
+    ],
+    "at": [
+     [
+      176.53,
+      67.31
+     ],
+     [
+      176.325,
+      70.945
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and /TDI)",
+    "nets": [
+     "/TDI"
+    ],
+    "at": [
+     [
+      151.827,
+      126.585
+     ],
+     [
+      147.925,
+      122.945
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0000 mm)",
+    "nets": [
+     "/TDI"
+    ],
+    "at": [
+     [
+      147.925,
+      122.945
+     ],
+     [
+      154.178,
+      126.873
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0288 mm)",
+    "nets": [
+     "/PARBUS3"
+    ],
+    "at": [
+     [
+      119.605,
+      89.745
+     ],
+     [
+      113.03,
+      92.71
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0570 mm)",
+    "nets": [
+     "/PARBUS3"
+    ],
+    "at": [
+     [
+      115.525,
+      93.825
+     ],
+     [
+      113.03,
+      92.71
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0000 mm)",
+    "nets": [
+     "Net-(P3-P1)"
+    ],
+    "at": [
+     [
+      189.845,
+      55.025
+     ],
+     [
+      187.325,
+      54.61
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and -12V)",
+    "nets": [
+     "-12V"
+    ],
+    "at": [
+     [
+      176.53,
+      67.31
+     ],
+     [
+      185.125,
+      72.225
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and Net-(P3-P1))",
+    "nets": [
+     "Net-(P3-P1)"
+    ],
+    "at": [
+     [
+      187.325,
+      54.61
+     ],
+     [
+      189.765,
+      55.345
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and Net-(P3-P1))",
+    "nets": [
+     "Net-(P3-P1)"
+    ],
+    "at": [
+     [
+      187.325,
+      54.61
+     ],
+     [
+      187.445,
+      52.625
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and Net-(P3-P1))",
+    "nets": [
+     "Net-(P3-P1)"
+    ],
+    "at": [
+     [
+      187.325,
+      54.61
+     ],
+     [
+      189.685,
+      55.585
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and Net-(P3-P1))",
+    "nets": [
+     "Net-(P3-P1)"
+    ],
+    "at": [
+     [
+      187.325,
+      54.61
+     ],
+     [
+      189.845,
+      55.265
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.1579 mm)",
+    "nets": [
+     "Net-(P3-P1)"
+    ],
+    "at": [
+     [
+      187.325,
+      54.61
+     ],
+     [
+      189.605,
+      55.825
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and Net-(P3-P1))",
+    "nets": [
+     "Net-(P3-P1)"
+    ],
+    "at": [
+     [
+      187.325,
+      54.61
+     ],
+     [
+      189.765,
+      55.505
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0905 mm)",
+    "nets": [
+     "Net-(P3-P1)"
+    ],
+    "at": [
+     [
+      187.325,
+      54.61
+     ],
+     [
+      189.685,
+      55.745
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'pwr' clearance 0.2000 mm; actual 0.0000 mm)",
+    "nets": [
+     "VCC"
+    ],
+    "at": [
+     [
+      155.765,
+      123.265
+     ],
+     [
+      160.037,
+      126.456
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0000 mm)",
+    "nets": [
+     "/PARBUS7"
+    ],
+    "at": [
+     [
+      119.125,
+      82.705
+     ],
+     [
+      113.03,
+      82.55
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'pwr' clearance 0.2000 mm; actual 0.0000 mm)",
+    "nets": [
+     "VCC"
+    ],
+    "at": [
+     [
+      155.765,
+      123.265
+     ],
+     [
+      157.487,
+      126.338
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0000 mm)",
+    "nets": [
+     "/MD14"
+    ],
+    "at": [
+     [
+      150.725,
+      66.705
+     ],
+     [
+      161.29,
+      67.31
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'pwr' clearance 0.2000 mm; actual 0.0000 mm)",
+    "nets": [
+     "/-12BATT"
+    ],
+    "at": [
+     [
+      189.765,
+      111.905
+     ],
+     [
+      189.865,
+      116.713
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and VCC)",
+    "nets": [
+     "VCC"
+    ],
+    "at": [
+     [
+      160.037,
+      126.456
+     ],
+     [
+      160.005,
+      127.505
+     ]
+    ]
+   }
+  ],
+  "problems": []
+ }
+}

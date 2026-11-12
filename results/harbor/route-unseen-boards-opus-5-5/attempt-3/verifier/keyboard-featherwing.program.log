@@ -1,0 +1,22 @@
+192.0] ripup /Keyboard/KBD_COL4 ripped ['/Keyboard/KBD_COL5', '/Keyboard/KBD_ROW3'] ok
+[194.5] ripup /Keyboard/KBD_COL2 ripped ['/Keyboard/KBD_COL3', '/Keyboard/KBD_ROW2', '/Keyboard/KBD_ROW1'] ok
+[194.6] ripup /Keyboard/KBD_COL5 ripped ['/Keyboard/KBD_COL4', '/Keyboard/KBD_ROW6', '/Keyboard/KBD_ROW5'] ok
+[195.5] ripup /Keyboard/KBD_ROW2 ripped ['/Keyboard/KBD_COL3', '/Keyboard/KBD_COL2', '/Keyboard/KBD_COL1'] ok
+[197.9] ripup /Keyboard/KBD_ROW1 ripped ['/Keyboard/BL_CTRL'] ok
+[198.1] ripup /Keyboard/KBD_COL3 ripped ['/Keyboard/KBD_ROW2', '/Keyboard/KBD_ROW1'] ok
+[198.8] ripup /Keyboard/KBD_ROW2 ripped ['/Keyboard/BL_CTRL', '/Keyboard/KBD_COL2', '/Keyboard/KBD_COL1'] ok
+[201.2] ripup /Keyboard/KBD_COL2 ripped ['/Keyboard/KBD_ROW2'] ok
+[203.2] done; routed 58 of 81 failed ['Net-(TP3-Pad1)', '/TP_YM', '/TP_XP', '/TP_YP', '/TP_XM', '/Keyboard/KBD_ROW2', '/Keyboard/KBD_COL1', '/Keyboard/KBD_ROW4', '/Keyboard/KBD_ROW5', '/Keyboard/KBD_ROW6', '/Keyboard/KBD_ROW7', '/LCD_CS', '/LCD_DC', '/TP_INT', '/Keyboard/JOY_DOWN', '/CARD_COPI', '/CARD_CLK', '/Keyboard/BTN_RIGHT1', '/CARD_CIPO', '/LCD_BL_CTRL', '/KBD_RESET', '+3V3', 'GND']
+14:28:51: Debug: Adding duplicate image handler for 'PNG file'
+14:28:51: Debug: Adding duplicate image handler for 'JPEG file'
+14:28:51: Debug: Adding duplicate image handler for 'TIFF file'
+14:28:51: Debug: Adding duplicate image handler for 'GIF file'
+14:28:51: Debug: Adding duplicate image handler for 'PNM file'
+14:28:51: Debug: Adding duplicate image handler for 'PCX file'
+14:28:51: Debug: Adding duplicate image handler for 'IFF file'
+14:28:51: Debug: Adding duplicate image handler for 'Windows icon file'
+14:28:51: Debug: Adding duplicate image handler for 'Windows cursor file'
+14:28:51: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+14:28:51: Debug: Adding duplicate image handler for 'TGA file'
+14:28:51: Debug: Adding duplicate image handler for 'XPM file'
+[203.3] saved /run/hidden/keyboard-featherwing/routed.kicad_pcb

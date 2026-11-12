@@ -1,0 +1,28 @@
+[0.1] clr 0.254 via 0.5 0.3 edge 0.025 mintw 0.2
+[0.1] grid 1356 477 pitch 0.1 nets 38
+[0.4] static built
+[0.6] unroutable Net-(R14-Pad2)
+[3.5] unroutable Net-(C2-Pad1)
+[3.7] unroutable Net-(R13-Pad2)
+[6.6] unroutable Net-(R4-Pad2)
+[9.7] unroutable Net-(C1-Pad1)
+[9.7] unroutable Net-(SW8-Pad1)
+[9.7] unroutable Net-(J5-Pad5)
+[9.8] unroutable Net-(SW6-Pad1)
+[9.8] unroutable Net-(SW7-Pad1)
+[23.4] unroutable +5V
+[46.6] unroutable GND
+[46.6] done; routed 27 of 38 failed ['Net-(R14-Pad2)', 'Net-(C2-Pad1)', 'Net-(R13-Pad2)', 'Net-(R4-Pad2)', 'Net-(C1-Pad1)', 'Net-(SW8-Pad1)', 'Net-(J5-Pad5)', 'Net-(SW6-Pad1)', 'Net-(SW7-Pad1)', '+5V', 'GND']
+14:25:26: Debug: Adding duplicate image handler for 'PNG file'
+14:25:26: Debug: Adding duplicate image handler for 'JPEG file'
+14:25:26: Debug: Adding duplicate image handler for 'TIFF file'
+14:25:26: Debug: Adding duplicate image handler for 'GIF file'
+14:25:26: Debug: Adding duplicate image handler for 'PNM file'
+14:25:26: Debug: Adding duplicate image handler for 'PCX file'
+14:25:26: Debug: Adding duplicate image handler for 'IFF file'
+14:25:26: Debug: Adding duplicate image handler for 'Windows icon file'
+14:25:26: Debug: Adding duplicate image handler for 'Windows cursor file'
+14:25:26: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+14:25:26: Debug: Adding duplicate image handler for 'TGA file'
+14:25:26: Debug: Adding duplicate image handler for 'XPM file'
+[46.7] saved /run/hidden/macro-pad/routed.kicad_pcb

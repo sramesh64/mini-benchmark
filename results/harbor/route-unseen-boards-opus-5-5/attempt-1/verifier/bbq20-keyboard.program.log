@@ -1,0 +1,13 @@
+1 good 32 bad 24 ['/USB_D+', '/ROW4', '/MIC', '/ROW2', '/QSPI_SD1', 'Net-(C7-Pad1)', '/BOOTSEL', '/SWCLK', '/QSPI_SCLK', '/TP_SHUTDOWN', '/ROW7', '/COL5', '/TP_RESET', '/QSPI_SD2', '/QSPI_SD3', '/COL6', 'Net-(Q4-Pad3)', '/Keyboard/TP_MOTION_1V8', '/Keyboard/TP_SHUTDOWN_1V8', 'Net-(C13-Pad1)']
+[310.6] tune failed /USB_D+ 4.901362184380703
+[310.6] pass 22 good 38 bad 18 ['/USB_D+', '/QSPI_SD0', '/QSPI_SD1', '/D-', '/SDA', '/ROW6', '+3V3', '/TP_SCL', '/ROW1', '/~{RESET}', '/COL6', '/QSPI_SD3', '/COL2', '/~{QSPI_CS}', '/D+', 'Net-(JP1-Pad2)', '/Keyboard/TP_SCL_1V8', '+1V8']
+[324.8] tune failed /USB_D+ 4.901362184380703
+[324.8] pass 23 good 40 bad 16 ['/USB_D+', '/MIC', '/QSPI_SD3', '/QSPI_SD2', '+3V3', '/TP_MOTION', '/SWCLK', '/INT', '/SCL', '/D+', '/BOOTSEL', '/ROW5', '/COL4', '/ROW3', '/Keyboard/TP_SCL_1V8', '/TX']
+[338.4] tune failed /USB_D+ 4.934499269370535
+[338.4] pass 24 good 34 bad 22 ['/USB_D+', '/SWCLK', '/QSPI_SD1', 'Net-(C7-Pad1)', '/QSPI_SD3', '/D-', '/SDA', '/BACKLIGHT', '/TP_SHUTDOWN', '/ROW3', '/ROW6', 'GND', '/COL2', '/SWDIO', '/COL6', '/COL3', '/~{QSPI_CS}', 'Net-(C12-Pad1)', '/TX', '+1V8']
+[358.7] tune failed /USB_D+ 4.901362184380703
+[358.7] pass 25 good 34 bad 22 ['/USB_D+', 'Net-(C7-Pad1)', '/SCL', '/ROW4', '+3V3', '/MIC', '/ROW2', '/TP_SCL', '/~{QSPI_CS}', '/ROW5', '/QSPI_SCLK', '/ROW7', '/COL5', '/ROW1', '/TP_RESET', '/COL4', '/COL1', 'Net-(C12-Pad1)', '/TX', '/Keyboard/TP_SHUTDOWN_1V8']
+[368.7] tune failed /USB_D+ 4.901362184380703
+[368.7] pass 26 good 39 bad 17 ['/USB_D+', '/D-', '/QSPI_SD0', '/QSPI_SD2', '/QSPI_SD3', '/TP_MOTION', '/ROW6', '/ROW7', '/COL3', '/SWDIO', '/~{RESET}', '/D+', 'Net-(JP1-Pad2)', 'Net-(Q4-Pad3)', 'Net-(C13-Pad1)', '+2V8', '/Keyboard/TP_RESET_1V8']
+[370.2] pass 27 good 14 bad 42 ['/SDA', '/QSPI_SD1', '/ROW3', '/QSPI_SCLK', 'Net-(C7-Pad1)', '/ROW1', '/TP_SHUTDOWN', '/~{QSPI_CS}', '/COL3', 'Net-(C12-Pad1)', '/COL1', '/ROW7', '/SWCLK', '/TP_SCL', '/TP_RESET', '+3V3', '/COL2', '/SWDIO', 'GND', '/ROW5']
+[370.2] done 51 / 56

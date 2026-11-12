@@ -1,0 +1,155 @@
+{
+ "reward": 0.8788,
+ "full_pass": 0,
+ "nets_to_route": 33,
+ "nets_good": 30,
+ "nets_open": 0,
+ "nets_with_violations": 4,
+ "other_nets_broken": 1,
+ "violations": 6,
+ "tracks_and_vias": 2117,
+ "connections_missing": 0,
+ "rounds": 1,
+ "parts_to_place": 0,
+ "placement_violations": 0,
+ "detail": {
+  "good_nets": [
+   "/DATA-RB7",
+   "/PC-CLOCK-OUT",
+   "/PC-DATA-IN",
+   "/PC-DATA-OUT",
+   "/VPP_ON",
+   "/VPP{slash}MCLR",
+   "Net-(C5-Pad1)",
+   "Net-(D1-A)",
+   "Net-(D1-K)",
+   "Net-(D10-A)",
+   "Net-(D11-A)",
+   "Net-(D11-K)",
+   "Net-(D12-A)",
+   "Net-(D2-A)",
+   "Net-(D4-A)",
+   "Net-(D6-A)",
+   "Net-(D8-A)",
+   "Net-(D9-A)",
+   "Net-(Q1-B)",
+   "Net-(Q2-B)",
+   "Net-(Q2-C)",
+   "Net-(Q3-B)",
+   "Net-(R12-Pad1)",
+   "Net-(R13-Pad1)",
+   "Net-(R15-Pad1)",
+   "Net-(R16-Pad1)",
+   "Net-(R8-Pad1)",
+   "Net-(U4-FB+)",
+   "Net-(U4-Vc)",
+   "VPP"
+  ],
+  "open_nets": [],
+  "violations": [
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0000 mm)",
+    "nets": [
+     "/CLOCK-RB6"
+    ],
+    "at": [
+     [
+      174.96,
+      121.94
+     ],
+     [
+      171.45,
+      120.65
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.0000 mm)",
+    "nets": [
+     "/pic_sockets/VCC_PIC"
+    ],
+    "at": [
+     [
+      174.06,
+      76.34
+     ],
+     [
+      163.83,
+      88.9
+     ]
+    ]
+   },
+   {
+    "type": "shorting_items",
+    "description": "Items shorting two nets (nets <no net> and GND)",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      162.9,
+      99.1
+     ],
+     [
+      156.96,
+      97.84
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'POWER' clearance 0.2800 mm; actual 0.0000 mm)",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      156.96,
+      97.84
+     ],
+     [
+      171.45,
+      109.22
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'POWER' clearance 0.2800 mm; actual 0.0000 mm)",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      168.36,
+      109.24
+     ],
+     [
+      171.45,
+      109.22
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'POWER' clearance 0.2800 mm; actual 0.0000 mm)",
+    "nets": [
+     "VCC"
+    ],
+    "at": [
+     [
+      137.36,
+      88.04
+     ],
+     [
+      123.19,
+      95.25
+     ]
+    ]
+   }
+  ],
+  "problems": []
+ }
+}

@@ -1,0 +1,14 @@
+(version 1)
+# Minimum track widths, net by net: no track may be narrower than the narrowest track the
+# board's designer used on that net. Net names are spelled as in the board file.
+(rule "tracks at least 0.25 mm wide (25 nets)"
+  (condition "A.NetName == '+3V3' || A.NetName == '+5V' || A.NetName == '/CAN Transiver/CAN1_RX' || A.NetName == '/CAN Transiver/CAN1_S' || A.NetName == '/CAN Transiver/CAN1_TX' || A.NetName == '/CAN Transiver/CAN2_RX' || A.NetName == '/CAN Transiver/CAN2_S' || A.NetName == '/CAN Transiver/CAN2_TX' || A.NetName == '/CAN1_H' || A.NetName == '/CAN1_L' || A.NetName == '/CAN2_H' || A.NetName == '/CAN2_L' || A.NetName == '/MCU/LED_TX' || A.NetName == '/MCU/NRST' || A.NetName == '/MCU/RX' || A.NetName == '/MCU/SWCLK' || A.NetName == '/MCU/SWDIO' || A.NetName == '/MCU/TX' || A.NetName == 'Net-(D1-A)' || A.NetName == 'Net-(D2-A)' || A.NetName == 'Net-(D3-A)' || A.NetName == 'Net-(U1F-PF0{slash}OSC_IN)' || A.NetName == 'Net-(U1F-PF1{slash}OSC_OUT)' || A.NetName == 'Net-(X1-CC1)' || A.NetName == 'Net-(X1-CC2)'")
+  (constraint track_width (min 0.25mm)))
+(rule "tracks at least 0.5 mm wide (1 net)"
+  (condition "A.NetName == '+12V'")
+  (constraint track_width (min 0.5mm)))
+# Differential pairs: the two tracks of a pair must match in length about as closely as the
+# board's designer matched them (the designer's mismatch plus 25%, and never tighter than 0.5 mm).
+(rule "pair /USB: the two tracks within 1.03 mm of each other in length"
+  (condition "A.inDiffPair('/USB')")
+  (constraint skew (max 1.03mm)))

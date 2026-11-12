@@ -1,0 +1,238 @@
+{
+ "reward": 0.6296,
+ "full_pass": 0,
+ "nets_to_route": 81,
+ "nets_good": 51,
+ "nets_open": 26,
+ "nets_with_violations": 6,
+ "other_nets_broken": 0,
+ "violations": 8,
+ "tracks_and_vias": 2842,
+ "connections_missing": 37,
+ "rounds": 1,
+ "parts_to_place": 0,
+ "placement_violations": 0,
+ "detail": {
+  "good_nets": [
+   "+5V",
+   "+BATT",
+   "/A0",
+   "/A1",
+   "/A2",
+   "/A3",
+   "/A4",
+   "/ALS",
+   "/AREF",
+   "/CARD_CS",
+   "/CARD_DET",
+   "/EN",
+   "/GPIO10",
+   "/GPIO11",
+   "/GPIO12",
+   "/GPIO13",
+   "/GPIO5",
+   "/GPIO6",
+   "/GPIO9",
+   "/KBD_INT",
+   "/KBD_SDA",
+   "/Keyboard/BL_CTRL",
+   "/Keyboard/BTN_LEFT1",
+   "/Keyboard/BTN_LEFT2",
+   "/Keyboard/JOY_DOWN",
+   "/Keyboard/JOY_LEFT",
+   "/Keyboard/JOY_UP",
+   "/Keyboard/KBD_COL2",
+   "/Keyboard/KBD_COL4",
+   "/Keyboard/KBD_ROW2",
+   "/Keyboard/KBD_ROW3",
+   "/Keyboard/KBD_ROW7",
+   "/LCD_DC",
+   "/NEOPIXEL",
+   "/RX",
+   "/TP_YP",
+   "/TX",
+   "Net-(C3-Pad1)",
+   "Net-(D1-Pad2)",
+   "Net-(D1-Pad4)",
+   "Net-(D2-Pad1)",
+   "Net-(JP4-Pad2)",
+   "Net-(Q2-Pad3)",
+   "Net-(R7-Pad1)",
+   "Net-(TP11-Pad1)",
+   "Net-(TP12-Pad1)",
+   "Net-(TP3-Pad1)",
+   "Net-(TP4-Pad1)",
+   "Net-(TP8-Pad1)",
+   "VBUS",
+   "unconnected-(U6-Pad16)"
+  ],
+  "open_nets": [
+   "+3V3",
+   "/CARD_CIPO",
+   "/CARD_CLK",
+   "/CARD_COPI",
+   "/KBD_RESET",
+   "/KBD_SCL",
+   "/Keyboard/BTN_RIGHT1",
+   "/Keyboard/BTN_RIGHT2",
+   "/Keyboard/JOY_CENTER",
+   "/Keyboard/JOY_RIGHT",
+   "/Keyboard/KBD_COL1",
+   "/Keyboard/KBD_COL3",
+   "/Keyboard/KBD_COL5",
+   "/Keyboard/KBD_ROW6",
+   "/LCD_BL_CTRL",
+   "/LCD_CS",
+   "/TP_INT",
+   "/TP_XM",
+   "/TP_XP",
+   "/TP_YM",
+   "GND",
+   "Net-(Q1-Pad3)",
+   "Net-(R5-Pad2)",
+   "Net-(TP1-Pad1)",
+   "Net-(TP13-Pad1)",
+   "Net-(TP14-Pad1)"
+  ],
+  "violations": [
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1992 mm)",
+    "nets": [
+     "/Keyboard/KBD_ROW5"
+    ],
+    "at": [
+     [
+      147.75,
+      87.8
+     ],
+     [
+      147.363,
+      88.172
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1065 mm)",
+    "nets": [
+     "/LCD_CS"
+    ],
+    "at": [
+     [
+      154.05,
+      71.0
+     ],
+     [
+      153.667,
+      70.688
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1992 mm)",
+    "nets": [
+     "/Keyboard/KBD_ROW4"
+    ],
+    "at": [
+     [
+      147.75,
+      89.0
+     ],
+     [
+      147.363,
+      88.627
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1890 mm)",
+    "nets": [
+     "/Keyboard/KBD_ROW1",
+     "GND"
+    ],
+    "at": [
+     [
+      149.768,
+      87.392
+     ],
+     [
+      149.898,
+      86.938
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1735 mm)",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      149.45,
+      87.4
+     ],
+     [
+      149.898,
+      86.938
+     ]
+    ]
+   },
+   {
+    "type": "clearance",
+    "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1415 mm)",
+    "nets": [
+     "/A5"
+    ],
+    "at": [
+     [
+      154.968,
+      63.278
+     ],
+     [
+      154.05,
+      63.6
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Rear solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      130.5,
+      49.7
+     ],
+     [
+      128.058,
+      53.072
+     ]
+    ]
+   },
+   {
+    "type": "solder_mask_bridge",
+    "description": "Rear solder mask aperture bridges items with different nets",
+    "nets": [
+     "GND"
+    ],
+    "at": [
+     [
+      130.5,
+      49.7
+     ],
+     [
+      128.058,
+      53.072
+     ]
+    ]
+   }
+  ],
+  "problems": []
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "board": "StickHub",
+ "routable_nets": [
+  "+1V8",
+  "+3.3V",
+  "+5V",
+  "/D+",
+  "/D-",
+  "/LC",
+  "/LED1",
+  "/LED2",
+  "/LED3",
+  "/LED4",
+  "/LED5",
+  "/LED6",
+  "/LED7",
+  "/U1D+",
+  "/U1D-",
+  "/U2D+",
+  "/U2D-",
+  "/U3D+",
+  "/U3D-",
+  "/U4D+",
+  "/U4D-",
+  "/U5D+",
+  "/U5D-",
+  "/U6D+",
+  "/U6D-",
+  "/U7D+",
+  "/U7D-",
+  "/XI",
+  "/XO",
+  "GND",
+  "Net-(D15-1)",
+  "Net-(D16-1)",
+  "Net-(D17-1)",
+  "Net-(D18-1)",
+  "Net-(D19-1)",
+  "Net-(D20-1)",
+  "Net-(D21-1)",
+  "Net-(J1-Pin_1)",
+  "Net-(U1-EXT_RST#)",
+  "Net-(U1-REXT)",
+  "Net-(U1-TEST1#)",
+  "Net-(U1-TEST3#)",
+  "Net-(U1-VBUS_SENSE)",
+  "Net-(U2-CAP)",
+  "VIN"
+ ],
+ "copper_layers": 2,
+ "footprints": 94,
+ "pads": 278,
+ "zones": 5,
+ "size_mm": [
+  16.6,
+  40.1
+ ],
+ "original_tracks": 1293,
+ "original_vias": 87,
+ "connections_missing": 128,
+ "report_capped": false,
+ "board_min_track_width_mm": 0.15,
+ "net_min_track_width_mm": {
+  "+3.3V": 0.2,
+  "+5V": 0.2,
+  "VIN": 0.2,
+  "Net-(U1-REXT)": 0.25,
+  "Net-(U2-CAP)": 0.25,
+  "Net-(J1-Pin_1)": 0.4
+ },
+ "width_rule_left_out": [],
+ "pair_max_skew_mm": {
+  "/D": 0.5,
+  "/U1D": 0.5,
+  "/U2D": 1.42,
+  "/U3D": 0.5,
+  "/U4D": 0.5,
+  "/U5D": 0.5,
+  "/U6D": 0.5,
+  "/U7D": 0.5
+ },
+ "pair_nets": {
+  "/D": [
+   "/D+",
+   "/D-"
+  ],
+  "/U1D": [
+   "/U1D+",
+   "/U1D-"
+  ],
+  "/U2D": [
+   "/U2D+",
+   "/U2D-"
+  ],
+  "/U3D": [
+   "/U3D+",
+   "/U3D-"
+  ],
+  "/U4D": [
+   "/U4D+",
+   "/U4D-"
+  ],
+  "/U5D": [
+   "/U5D+",
+   "/U5D-"
+  ],
+  "/U6D": [
+   "/U6D+",
+   "/U6D-"
+  ],
+  "/U7D": [
+   "/U7D+",
+   "/U7D-"
+  ]
+ },
+ "pair_rule_left_out": [],
+ "no_dead_end_nets": [
+  "/D+",
+  "/D-",
+  "/U1D+",
+  "/U1D-",
+  "/U2D+",
+  "/U2D-",
+  "/U3D+",
+  "/U3D-",
+  "/U4D+",
+  "/U4D-",
+  "/U5D+",
+  "/U5D-",
+  "/U6D+",
+  "/U6D-",
+  "/U7D+",
+  "/U7D-"
+ ]
+}

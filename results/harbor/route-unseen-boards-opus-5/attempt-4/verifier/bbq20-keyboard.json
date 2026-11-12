@@ -1,0 +1,104 @@
+{
+ "reward": 0.8364,
+ "full_pass": 0,
+ "nets_to_route": 55,
+ "nets_good": 47,
+ "nets_open": 6,
+ "nets_with_violations": 2,
+ "other_nets_broken": 1,
+ "violations": 2,
+ "tracks_and_vias": 871,
+ "connections_missing": 56,
+ "rounds": 1,
+ "parts_to_place": 0,
+ "placement_violations": 0,
+ "detail": {
+  "good_nets": [
+   "+1V8",
+   "+2V8",
+   "+5V",
+   "/BACKLIGHT",
+   "/BOOTSEL",
+   "/COL1",
+   "/COL3",
+   "/COL5",
+   "/D-",
+   "/INT",
+   "/Keyboard/TP_MOTION_1V8",
+   "/Keyboard/TP_RESET_1V8",
+   "/Keyboard/TP_SCL_1V8",
+   "/Keyboard/TP_SDA_1V8",
+   "/Keyboard/TP_SHUTDOWN_1V8",
+   "/MIC",
+   "/QSPI_SCLK",
+   "/QSPI_SD0",
+   "/QSPI_SD1",
+   "/QSPI_SD2",
+   "/QSPI_SD3",
+   "/ROW1",
+   "/ROW2",
+   "/ROW3",
+   "/ROW4",
+   "/ROW5",
+   "/ROW6",
+   "/ROW7",
+   "/SWCLK",
+   "/SWDIO",
+   "/TP_MOTION",
+   "/TP_RESET",
+   "/TP_SCL",
+   "/TP_SDA",
+   "/TP_SHUTDOWN",
+   "/TX",
+   "/USB_D-",
+   "/~{QSPI_CS}",
+   "/~{RESET}",
+   "Net-(C12-Pad1)",
+   "Net-(C13-Pad1)",
+   "Net-(C7-Pad1)",
+   "Net-(J3-PadA5)",
+   "Net-(J3-PadB5)",
+   "Net-(JP1-Pad2)",
+   "Net-(Q4-Pad3)",
+   "Net-(U1-Pad21)"
+  ],
+  "open_nets": [
+   "+3V3",
+   "/COL2",
+   "/COL4",
+   "/COL6",
+   "/SCL",
+   "/SDA",
+   "GND"
+  ],
+  "violations": [
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -5.2238 mm; target net length 8.3375 mm (from /D-); actual 3.1138 mm)",
+    "nets": [
+     "/D+"
+    ],
+    "at": [
+     [
+      147.15,
+      92.65
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /USB_D: the two tracks within 0.98 mm of each other in length' max skew 0.9800 mm; actual -4.9204 mm; target net length 17.9010 mm (from /USB_D-); actual 12.9806 mm)",
+    "nets": [
+     "/USB_D+"
+    ],
+    "at": [
+     [
+      147.45,
+      78.85
+     ]
+    ]
+   }
+  ],
+  "problems": []
+ }
+}

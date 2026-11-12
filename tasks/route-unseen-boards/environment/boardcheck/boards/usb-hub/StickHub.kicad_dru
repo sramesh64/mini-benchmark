@@ -1,0 +1,38 @@
+(version 1)
+# Minimum track widths, net by net: no track may be narrower than the narrowest track the
+# board's designer used on that net. Net names are spelled as in the board file.
+(rule "tracks at least 0.2 mm wide (3 nets)"
+  (condition "A.NetName == '+3.3V' || A.NetName == '+5V' || A.NetName == 'VIN'")
+  (constraint track_width (min 0.2mm)))
+(rule "tracks at least 0.25 mm wide (2 nets)"
+  (condition "A.NetName == 'Net-(U1-REXT)' || A.NetName == 'Net-(U2-CAP)'")
+  (constraint track_width (min 0.25mm)))
+(rule "tracks at least 0.4 mm wide (1 net)"
+  (condition "A.NetName == 'Net-(J1-Pin_1)'")
+  (constraint track_width (min 0.4mm)))
+# Differential pairs: the two tracks of a pair must match in length about as closely as the
+# board's designer matched them (the designer's mismatch plus 25%, and never tighter than 0.5 mm).
+(rule "pair /D: the two tracks within 0.5 mm of each other in length"
+  (condition "A.inDiffPair('/D')")
+  (constraint skew (max 0.5mm)))
+(rule "pair /U1D: the two tracks within 0.5 mm of each other in length"
+  (condition "A.inDiffPair('/U1D')")
+  (constraint skew (max 0.5mm)))
+(rule "pair /U2D: the two tracks within 1.42 mm of each other in length"
+  (condition "A.inDiffPair('/U2D')")
+  (constraint skew (max 1.42mm)))
+(rule "pair /U3D: the two tracks within 0.5 mm of each other in length"
+  (condition "A.inDiffPair('/U3D')")
+  (constraint skew (max 0.5mm)))
+(rule "pair /U4D: the two tracks within 0.5 mm of each other in length"
+  (condition "A.inDiffPair('/U4D')")
+  (constraint skew (max 0.5mm)))
+(rule "pair /U5D: the two tracks within 0.5 mm of each other in length"
+  (condition "A.inDiffPair('/U5D')")
+  (constraint skew (max 0.5mm)))
+(rule "pair /U6D: the two tracks within 0.5 mm of each other in length"
+  (condition "A.inDiffPair('/U6D')")
+  (constraint skew (max 0.5mm)))
+(rule "pair /U7D: the two tracks within 0.5 mm of each other in length"
+  (condition "A.inDiffPair('/U7D')")
+  (constraint skew (max 0.5mm)))

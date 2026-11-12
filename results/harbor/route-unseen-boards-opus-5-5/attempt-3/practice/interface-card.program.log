@@ -1,0 +1,31 @@
+ '/MD7', '/MA16', '/MA1'] ok
+[241.9] ripup /MD7 ripped ['/MD0', '/OE-', '/MD6', '/MA0'] ok
+[244.1] ripup /MA1 ripped ['/MA16'] ok
+[247.7] ripup /MA16 ripped ['/MA14', 'VCC', '/MA3', '/MA4', '/MD0'] ok
+18:09:37: Debug: Adding duplicate image handler for 'PNG file'
+18:09:37: Debug: Adding duplicate image handler for 'JPEG file'
+18:09:37: Debug: Adding duplicate image handler for 'TIFF file'
+18:09:37: Debug: Adding duplicate image handler for 'GIF file'
+18:09:37: Debug: Adding duplicate image handler for 'PNM file'
+18:09:37: Debug: Adding duplicate image handler for 'PCX file'
+18:09:37: Debug: Adding duplicate image handler for 'IFF file'
+18:09:37: Debug: Adding duplicate image handler for 'Windows icon file'
+18:09:37: Debug: Adding duplicate image handler for 'Windows cursor file'
+18:09:37: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+18:09:37: Debug: Adding duplicate image handler for 'TGA file'
+18:09:37: Debug: Adding duplicate image handler for 'XPM file'
+[247.9] saved /run/hidden/interface-card/routed.kicad_pcb
+[249.0] done; routed 105 of 110 failed ['/MA11', '/PC-A10', '/PC-A9', '/PC-A1', 'GND']
+18:09:38: Debug: Adding duplicate image handler for 'PNG file'
+18:09:38: Debug: Adding duplicate image handler for 'JPEG file'
+18:09:38: Debug: Adding duplicate image handler for 'TIFF file'
+18:09:38: Debug: Adding duplicate image handler for 'GIF file'
+18:09:38: Debug: Adding duplicate image handler for 'PNM file'
+18:09:38: Debug: Adding duplicate image handler for 'PCX file'
+18:09:38: Debug: Adding duplicate image handler for 'IFF file'
+18:09:38: Debug: Adding duplicate image handler for 'Windows icon file'
+18:09:38: Debug: Adding duplicate image handler for 'Windows cursor file'
+18:09:38: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+18:09:38: Debug: Adding duplicate image handler for 'TGA file'
+18:09:38: Debug: Adding duplicate image handler for 'XPM file'
+[249.2] saved /run/hidden/interface-card/routed.kicad_pcb

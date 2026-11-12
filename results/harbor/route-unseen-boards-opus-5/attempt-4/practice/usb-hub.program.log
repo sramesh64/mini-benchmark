@@ -1,0 +1,18 @@
+[   0.0s] grid 208x443 pitch 0.100mm clr 0.150 via 0.50/0.25
+[   0.7s] setup done; classes [0.15, 0.2, 0.25, 0.4]
+[   0.7s] nets to route: 45
+[   0.9s] routed 20/45 (19 ok)
+[   1.2s] routed 40/45 (35 ok)
+[   5.6s] pass 1: 37/45 complete
+[   8.6s] pass 2: 37/45 complete
+[  12.4s] pass 3: 37/45 complete
+[  15.7s] pair /D skew 2.45mm tol 0.50 -> lengthen /D-
+[  15.7s] pair /U1D skew 1.30mm tol 0.50 -> lengthen /U1D+
+[  15.7s] pair /U2D skew 1.39mm tol 1.42 -> lengthen /U2D-
+[  15.7s] pair /U3D skew 5.50mm tol 0.50 -> lengthen /U3D-
+[  15.7s] pair /U4D skew 4.63mm tol 0.50 -> lengthen /U4D-
+[  15.7s] pair /U5D skew 7.57mm tol 0.50 -> lengthen /U5D-
+[  15.7s] pair /U6D skew 0.47mm tol 0.50 -> lengthen /U6D+
+[  15.7s] lengthened /U6D+ by 0.22mm
+[  15.7s] pair /U7D skew 12.08mm tol 0.50 -> lengthen /U7D+
+[  15.8s] done

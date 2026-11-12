@@ -1,0 +1,20 @@
+{
+ "task": "route-unseen-boards",
+ "trial": "route-unseen-boards__ZRZfKaY",
+ "model": "claude-opus-5",
+ "harness": "claude-code",
+ "harness_version": "2.1.322",
+ "agent_minutes": 28.9,
+ "verifier_minutes": 7.1,
+ "started_at": "2026-11-11T14:02:51.981091Z",
+ "input_tokens": 3443378,
+ "cached_tokens": 3325415,
+ "output_tokens": 82229,
+ "api_price_estimate_usd": 4.897682499999999,
+ "harbor_error": null,
+ "signed_in_with": "OAuth token",
+ "ended": "completed",
+ "turns": 41,
+ "tool_calls": 40,
+ "clock_reads": 0
+}

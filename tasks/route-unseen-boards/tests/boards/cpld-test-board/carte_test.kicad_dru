@@ -1,0 +1,15 @@
+(version 1)
+# Minimum track widths, net by net: no track may be narrower than the narrowest track the
+# board's designer used on that net. Net names are spelled as in the board file.
+(rule "tracks at least 0.4 mm wide (13 nets)"
+  (condition "A.NetName == '/LED2' || A.NetName == '/TCK' || A.NetName == '/TDI' || A.NetName == '/TDO' || A.NetName == '/TMS' || A.NetName == 'GND' || A.NetName == 'Net-(C14-Pad1)' || A.NetName == 'Net-(C14-Pad2)' || A.NetName == 'Net-(C2-Pad1)' || A.NetName == 'Net-(C2-Pad2)' || A.NetName == 'Net-(U6-+)' || A.NetName == 'Net-(U6--)' || A.NetName == 'Net-(U6-OUT)'")
+  (constraint track_width (min 0.4mm)))
+(rule "tracks at least 0.4318 mm wide (67 nets)"
+  (condition "A.NetName == '/+12BATT' || A.NetName == '/CSMEM' || A.NetName == '/DAT0' || A.NetName == '/DAT1' || A.NetName == '/DAT2' || A.NetName == '/DAT3' || A.NetName == '/DAT4' || A.NetName == '/DAT5' || A.NetName == '/DAT6' || A.NetName == '/DAT7' || A.NetName == '/DCLK' || A.NetName == '/LED1' || A.NetName == '/MA0' || A.NetName == '/MA1' || A.NetName == '/MA2' || A.NetName == '/MA3' || A.NetName == '/MA4' || A.NetName == '/MA5' || A.NetName == '/MA6' || A.NetName == '/MA7' || A.NetName == '/MD0' || A.NetName == '/MD1' || A.NetName == '/MD10' || A.NetName == '/MD11' || A.NetName == '/MD12' || A.NetName == '/MD13' || A.NetName == '/MD14' || A.NetName == '/MD2' || A.NetName == '/MD3' || A.NetName == '/MD4' || A.NetName == '/MD5' || A.NetName == '/MD6' || A.NetName == '/MD7' || A.NetName == '/MD8' || A.NetName == '/MD9' || A.NetName == '/OEMEM' || A.NetName == '/PARBUS0' || A.NetName == '/PARBUS1' || A.NetName == '/PARBUS2' || A.NetName == '/PARBUS3' || A.NetName == '/PARBUS4' || A.NetName == '/PARBUS5' || A.NetName == '/PARBUS6' || A.NetName == '/PARBUS7' || A.NetName == '/PAR_AUX0{slash}STROBE*' || A.NetName == '/PAR_AUX1{slash}ERROR*' || A.NetName == '/PAR_AUX2{slash}AUTOLF*' || A.NetName == '/PAR_AUX3{slash}SELECT*' || A.NetName == '/PAR_AUX4{slash}PE' || A.NetName == '/PAR_AUX5{slash}BUSY*' || A.NetName == '/PAR_AUX6{slash}ACK' || A.NetName == '/PAR_AUX7{slash}INIT' || A.NetName == '/PAR_AUX8{slash}SELECT' || A.NetName == '/PIN_TEST0' || A.NetName == '/PIN_TEST1' || A.NetName == '/R{slash}W-A14' || A.NetName == '/SW0' || A.NetName == '/SW1' || A.NetName == '/XIN{slash}CLK' || A.NetName == 'Net-(C4-Pad1)' || A.NetName == 'Net-(C5-Pad1)' || A.NetName == 'Net-(D2-A)' || A.NetName == 'Net-(D3-A)' || A.NetName == 'Net-(K1-PM)' || A.NetName == 'Net-(P3-P1)' || A.NetName == 'Net-(U1-VREF)' || A.NetName == 'VCC'")
+  (constraint track_width (min 0.4318mm)))
+(rule "tracks at least 0.8 mm wide (1 net)"
+  (condition "A.NetName == '-12V'")
+  (constraint track_width (min 0.8mm)))
+(rule "tracks at least 1.016 mm wide (2 nets)"
+  (condition "A.NetName == '+12V' || A.NetName == '/-12BATT'")
+  (constraint track_width (min 1.016mm)))

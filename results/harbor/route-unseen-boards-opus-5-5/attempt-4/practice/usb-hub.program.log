@@ -1,0 +1,50 @@
+8 routed 37 / 45 queue 7
+[79.6] iter 41 routed 39 / 45 queue 5
+[84.0] iter 44 routed 38 / 45 queue 5
+[85.2] still failed after rip /U6D- 0
+[85.2] iter 45 routed 38 / 45 queue 5
+[86.4] iter 47 routed 40 / 45 queue 3
+[89.1] iter 48 routed 40 / 45 queue 3
+[91.6] iter 49 routed 41 / 45 queue 2
+[93.0] iter 50 routed 41 / 45 queue 2
+[95.5] iter 51 routed 39 / 45 queue 4
+[97.9] iter 52 routed 39 / 45 queue 4
+[99.4] iter 53 routed 40 / 45 queue 3
+[100.2] iter 54 routed 40 / 45 queue 3
+[100.9] iter 55 routed 39 / 45 queue 4
+[102.6] iter 57 routed 40 / 45 queue 3
+[104.6] still failed after rip /U4D- 2
+[106.5] iter 58 routed 39 / 45 queue 4
+[108.8] iter 60 routed 39 / 45 queue 4
+[110.3] still failed after rip /U4D- 0
+[110.3] iter 61 routed 39 / 45 queue 4
+[111.8] still failed after rip /U4D+ 0
+[111.8] iter 62 routed 39 / 45 queue 4
+[114.2] iter 63 routed 39 / 45 queue 4
+[115.8] still failed after rip /U4D- 0
+[115.8] iter 65 routed 40 / 45 queue 3
+[117.8] still failed after rip /U4D+ 0
+[117.8] iter 66 routed 40 / 45 queue 3
+[120.8] still failed after rip /U4D- 0
+[120.8] iter 68 routed 40 / 45 queue 2
+[122.9] still failed after rip /U4D+ 0
+[122.9] iter 69 routed 40 / 45 queue 2
+[124.9] pair /D+ 12.65 /D- 28.704 max 0.5
+[125.1] pair /D+ 16.65 /D- 28.704 max 0.5
+[125.3] pair /D+ 20.65 /D- 28.704 max 0.5
+[125.5] pair /D+ 24.65 /D- 28.704 max 0.5
+[125.7] pair /D+ 28.65 /D- 28.704 max 0.5
+[125.7] pair /U1D+ 5.142 /U1D- 6.579 max 0.5
+[125.9] pair /U1D+ 6.579 /U1D- 6.579 max 0.5
+[125.9] pair /U2D+ 5.709 /U2D- 4.371 max 1.42
+[126.0] pair /U2D+ 5.709 /U2D- 5.709 max 1.42
+[126.0] pair /U3D+ 15.743 /U3D- 11.036 max 0.5
+[126.2] pair /U3D+ 15.743 /U3D- 15.036 max 0.5
+[126.4] pair /U3D+ 15.743 /U3D- 15.743 max 0.5
+[126.4] pair /U4D+ 18.517 /U4D- 16.837 max 0.5
+[126.6] pair /U4D+ 18.517 /U4D- 18.517 max 0.5
+[126.6] pair /U5D+ 8.995 /U5D- 5.488 max 0.5
+[126.6] pair /U7D+ 9.865 /U7D- 12.462 max 0.5
+[126.8] pair /U7D+ 12.462 /U7D- 12.462 max 0.5
+[126.8] final routed 41 / 45
+[126.8] saved 41 nets

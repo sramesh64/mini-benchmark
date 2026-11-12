@@ -1,0 +1,35 @@
+ image handler for 'Windows animated cursor file'
+18:08:45: Debug: Adding duplicate image handler for 'TGA file'
+18:08:45: Debug: Adding duplicate image handler for 'XPM file'
+[  49.1] saved 2475 items
+[ 148.7] round 1 best 95
+[ 192.9] fresh pass 93
+[ 301.8] round 2 best 100
+[ 311.7] round 3 best 100
+[ 328.2] rip-up done routed 101 / 110
+18:13:24: Debug: Adding duplicate image handler for 'PNG file'
+18:13:24: Debug: Adding duplicate image handler for 'JPEG file'
+18:13:24: Debug: Adding duplicate image handler for 'TIFF file'
+18:13:24: Debug: Adding duplicate image handler for 'GIF file'
+18:13:24: Debug: Adding duplicate image handler for 'PNM file'
+18:13:24: Debug: Adding duplicate image handler for 'PCX file'
+18:13:24: Debug: Adding duplicate image handler for 'IFF file'
+18:13:24: Debug: Adding duplicate image handler for 'Windows icon file'
+18:13:24: Debug: Adding duplicate image handler for 'Windows cursor file'
+18:13:24: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+18:13:24: Debug: Adding duplicate image handler for 'TGA file'
+18:13:24: Debug: Adding duplicate image handler for 'XPM file'
+[ 328.3] saved 2443 items
+18:13:24: Debug: Adding duplicate image handler for 'PNG file'
+18:13:24: Debug: Adding duplicate image handler for 'JPEG file'
+18:13:24: Debug: Adding duplicate image handler for 'TIFF file'
+18:13:24: Debug: Adding duplicate image handler for 'GIF file'
+18:13:24: Debug: Adding duplicate image handler for 'PNM file'
+18:13:24: Debug: Adding duplicate image handler for 'PCX file'
+18:13:24: Debug: Adding duplicate image handler for 'IFF file'
+18:13:24: Debug: Adding duplicate image handler for 'Windows icon file'
+18:13:24: Debug: Adding duplicate image handler for 'Windows cursor file'
+18:13:24: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+18:13:24: Debug: Adding duplicate image handler for 'TGA file'
+18:13:24: Debug: Adding duplicate image handler for 'XPM file'
+[ 329.4] drc took 1.2 violations 0 {}

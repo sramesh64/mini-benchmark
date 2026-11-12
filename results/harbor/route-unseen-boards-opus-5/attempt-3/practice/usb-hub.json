@@ -1,0 +1,169 @@
+{
+ "reward": 0.7556,
+ "full_pass": 0,
+ "nets_to_route": 45,
+ "nets_good": 34,
+ "nets_open": 3,
+ "nets_with_violations": 8,
+ "other_nets_broken": 0,
+ "violations": 8,
+ "tracks_and_vias": 659,
+ "connections_missing": 42,
+ "rounds": 1,
+ "parts_to_place": 0,
+ "placement_violations": 0,
+ "detail": {
+  "good_nets": [
+   "+1V8",
+   "/D-",
+   "/LC",
+   "/LED1",
+   "/LED2",
+   "/LED3",
+   "/LED4",
+   "/LED5",
+   "/LED6",
+   "/LED7",
+   "/U1D-",
+   "/U2D+",
+   "/U2D-",
+   "/U3D+",
+   "/U5D+",
+   "/U6D-",
+   "/U7D-",
+   "/XI",
+   "/XO",
+   "Net-(D15-1)",
+   "Net-(D16-1)",
+   "Net-(D17-1)",
+   "Net-(D18-1)",
+   "Net-(D19-1)",
+   "Net-(D20-1)",
+   "Net-(D21-1)",
+   "Net-(J1-Pin_1)",
+   "Net-(U1-EXT_RST#)",
+   "Net-(U1-REXT)",
+   "Net-(U1-TEST1#)",
+   "Net-(U1-TEST3#)",
+   "Net-(U1-VBUS_SENSE)",
+   "Net-(U2-CAP)",
+   "VIN"
+  ],
+  "open_nets": [
+   "+3.3V",
+   "+5V",
+   "GND"
+  ],
+  "violations": [
+   {
+    "type": "solder_mask_bridge",
+    "description": "Front solder mask aperture bridges items with different nets",
+    "nets": [
+     "/U4D+"
+    ],
+    "at": [
+     [
+      158.0,
+      94.75
+     ],
+     [
+      156.867,
+      93.043
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U5D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -1.2841 mm; target net length 6.8852 mm (from /U5D+); actual 5.6011 mm)",
+    "nets": [
+     "/U5D-"
+    ],
+    "at": [
+     [
+      145.849,
+      102.314
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U1D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -1.1832 mm; target net length 6.2855 mm (from /U1D-); actual 5.1023 mm)",
+    "nets": [
+     "/U1D+"
+    ],
+    "at": [
+     [
+      152.834,
+      101.203
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -13.5018 mm; target net length 25.8592 mm (from /D-); actual 12.3573 mm)",
+    "nets": [
+     "/D+"
+    ],
+    "at": [
+     [
+      147.659,
+      105.425
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U7D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -1.0218 mm; target net length 9.9813 mm (from /U7D-); actual 8.9595 mm)",
+    "nets": [
+     "/U7D+"
+    ],
+    "at": [
+     [
+      146.897,
+      98.059
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U3D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -2.3630 mm; target net length 13.0641 mm (from /U3D+); actual 10.7011 mm)",
+    "nets": [
+     "/U3D-"
+    ],
+    "at": [
+     [
+      155.184,
+      99.171
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U4D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -1.8413 mm; target net length 17.7276 mm (from /U4D+); actual 15.8863 mm)",
+    "nets": [
+     "/U4D-"
+    ],
+    "at": [
+     [
+      155.755,
+      96.535
+     ]
+    ]
+   },
+   {
+    "type": "skew_out_of_range",
+    "description": "Skew between tracks out of range (rule 'pair /U6D: the two tracks within 0.5 mm of each other in length' max skew 0.5000 mm; actual -1.3444 mm; target net length 4.6415 mm (from /U6D-); actual 3.2971 mm)",
+    "nets": [
+     "/U6D+"
+    ],
+    "at": [
+     [
+      146.897,
+      99.266
+     ]
+    ]
+   }
+  ],
+  "problems": []
+ }
+}

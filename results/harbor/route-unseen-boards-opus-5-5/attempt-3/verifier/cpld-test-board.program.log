@@ -1,0 +1,17 @@
+[0.2] clr 0.25 via 0.889 0.508 edge 0.01 mintw 0.254
+[0.2] grid 807 792 pitch 0.127 nets 83
+[1.1] static built
+[8.1] done; routed 83 of 83 failed []
+14:29:01: Debug: Adding duplicate image handler for 'PNG file'
+14:29:01: Debug: Adding duplicate image handler for 'JPEG file'
+14:29:01: Debug: Adding duplicate image handler for 'TIFF file'
+14:29:01: Debug: Adding duplicate image handler for 'GIF file'
+14:29:01: Debug: Adding duplicate image handler for 'PNM file'
+14:29:01: Debug: Adding duplicate image handler for 'PCX file'
+14:29:01: Debug: Adding duplicate image handler for 'IFF file'
+14:29:01: Debug: Adding duplicate image handler for 'Windows icon file'
+14:29:01: Debug: Adding duplicate image handler for 'Windows cursor file'
+14:29:01: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+14:29:01: Debug: Adding duplicate image handler for 'TGA file'
+14:29:01: Debug: Adding duplicate image handler for 'XPM file'
+[8.2] saved /run/hidden/cpld-test-board/routed.kicad_pcb

@@ -1,0 +1,30 @@
+plete, overlap price 135
+[ 178.2] round 9: 1 nets routed again, 0 incomplete, overlap price 190
+[ 178.8] round 10: 1 nets routed again, 0 incomplete, overlap price 267
+[ 179.6] round 11: 1 nets routed again, 0 incomplete, overlap price 374
+[ 180.5] round 12: 1 nets routed again, 0 incomplete, overlap price 524
+[ 180.5] 1 join(s) of a pour taken out to let other nets through
+[ 180.7] round 13: 0 nets routed again, 0 incomplete, overlap price 524
+[ 183.8]    a join for ['U7.42'] is laid across other nets; they are routed again
+[ 183.8] pour net GND: 23 filled areas, 16 group(s) of pads left after 2 joins
+[ 184.2] round 1: 2 nets routed again, 0 incomplete, overlap price 12
+[ 185.1] round 2: 4 nets routed again, 0 incomplete, overlap price 17
+[ 185.7] round 3: 2 nets routed again, 0 incomplete, overlap price 24
+[ 186.2] round 4: 1 nets routed again, 0 incomplete, overlap price 34
+[ 186.8] round 5: 1 nets routed again, 0 incomplete, overlap price 48
+[ 187.4] round 6: 1 nets routed again, 0 incomplete, overlap price 68
+[ 188.1] round 7: 1 nets routed again, 0 incomplete, overlap price 96
+[ 188.9] round 8: 1 nets routed again, 0 incomplete, overlap price 135
+[ 189.8] round 9: 1 nets routed again, 0 incomplete, overlap price 190
+[ 191.0] round 10: 1 nets routed again, 0 incomplete, overlap price 267
+[ 192.2] round 11: 1 nets routed again, 0 incomplete, overlap price 374
+[ 193.6] round 12: 1 nets routed again, 0 incomplete, overlap price 524
+[ 193.6] 1 join(s) of a pour taken out to let other nets through
+[ 193.7] round 13: 0 nets routed again, 0 incomplete, overlap price 524
+[ 194.8]    made room for GND: routed again ['Net-(R5-Pad2)']
+[ 194.8] pour net GND: 24 filled areas, 12 group(s) of pads left after 5 joins
+[ 195.7] pour net GND: 24 filled areas, 1 group(s) of pads left after 11 joins
+[ 196.5] pour net GND: 24 filled areas, 1 group(s) of pads left after 0 joins
+[ 197.1] check 1: nets with violations [], open nets []
+[ 197.1] clean
+[ 197.1] done: 81 of 81 nets joined

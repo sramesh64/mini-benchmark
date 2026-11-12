@@ -1,0 +1,12 @@
+pass1 routed 60/68 failed 8 t=1.2
+round 1: bad=34 open=25 cost=36 t=31.9
+round 2: bad=31 open=25 cost=34 t=65.3
+round 3: bad=30 open=25 cost=33 t=97.0
+round 4: bad=31 open=25 cost=34 t=132.9
+round 5: bad=35 open=25 cost=38 t=177.8
+round 6: bad=35 open=25 cost=38 t=207.3
+round 7: bad=35 open=25 cost=38 t=237.0
+round 8: bad=35 open=25 cost=38 t=268.0
+round 9: bad=35 open=25 cost=38 t=299.3
+round 10: bad=35 open=25 cost=38 t=328.7
+restored best cost=33

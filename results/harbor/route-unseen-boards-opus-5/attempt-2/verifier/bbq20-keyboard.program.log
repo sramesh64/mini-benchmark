@@ -1,0 +1,9 @@
+pass1 routed 125/139 failed 14 t=26.2
+round 1: bad=29 open=24 cost=43 t=57.5
+round 2: bad=30 open=25 cost=42 t=102.4
+round 3: bad=29 open=25 cost=41 t=148.2
+round 4: bad=29 open=25 cost=43 t=197.0
+round 5: bad=33 open=25 cost=45 t=248.9
+round 6: bad=30 open=25 cost=44 t=294.5
+round 7: bad=32 open=26 cost=45 t=342.8
+restored best cost=41

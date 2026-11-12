@@ -1,0 +1,24 @@
+[0.1] grid 2007 702 res 0.0674 clr 0.254
+[0.3] via 0.5 0.3
+[0.5] classes ready [0.127, 0.25]
+[0.5] loaded; nets to route 38
+[55.3] first pass done; failed 16 of 38
+[55.3] saved 22 nets
+[69.9] net unroutable even soft /BACKLIT
+[69.9] net unroutable even soft Net-(R14-Pad2)
+[69.9] net unroutable even soft Net-(C3-Pad2)
+[70.0] net unroutable even soft Net-(J5-Pad3)
+[70.0] net unroutable even soft Net-(J5-Pad4)
+[70.0] net unroutable even soft Net-(R13-Pad2)
+[86.6] net unroutable even soft Net-(R4-Pad2)
+[106.0] net unroutable even soft Net-(C1-Pad1)
+[106.0] net unroutable even soft Net-(SW8-Pad1)
+[106.0] net unroutable even soft Net-(J5-Pad5)
+[106.1] net unroutable even soft Net-(SW1-Pad1)
+[106.1] net unroutable even soft Net-(SW6-Pad1)
+[106.1] net unroutable even soft Net-(SW7-Pad1)
+[106.1] net unroutable even soft Net-(SW4-Pad1)
+[121.4] net unroutable even soft +5V
+[137.2] net unroutable even soft GND
+[137.3] final routed 22 / 38
+[137.3] saved 22 nets

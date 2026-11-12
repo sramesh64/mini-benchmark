@@ -1,0 +1,25 @@
+[0.1] grid 758 404 res 0.05 clr 0.2
+[0.2] via 0.5 0.3
+[0.4] classes ready [0.1, 0.125, 0.25]
+[0.4] loaded; nets to route 30
+[9.5] first pass done; failed 3 of 30
+[9.5] saved 27 nets
+[11.0] iter 1 routed 27 / 30 queue 3
+[12.8] net unroutable even soft Net-(X1-CC1)
+[18.3] iter 3 routed 27 / 30 queue 2
+[19.5] still failed after rip /USB_N 1
+[19.5] iter 4 routed 27 / 30 queue 2
+[20.0] saved 28 nets
+[20.0] iter 5 routed 28 / 30 queue 1
+[21.1] still failed after rip /USB_N 1
+[21.1] iter 6 routed 28 / 30 queue 1
+[22.3] still failed after rip /USB_N 1
+[22.3] iter 7 routed 28 / 30 queue 1
+[23.4] still failed after rip /USB_N 1
+[23.4] iter 8 routed 28 / 30 queue 1
+[24.4] still failed after rip /USB_N 1
+[24.4] iter 9 routed 28 / 30 queue 1
+[25.5] still failed after rip /USB_N 1
+[25.5] iter 10 routed 28 / 30 queue 1
+[26.1] final routed 28 / 30
+[26.1] saved 28 nets

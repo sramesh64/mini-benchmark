@@ -1,0 +1,54 @@
+oard/KBD_ROW5
+[169.9] net unroutable even soft /Keyboard/KBD_ROW6
+[170.2] iter 12 routed 55 / 81 queue 16
+[170.2] net unroutable even soft /LCD_DC
+[198.4] iter 14 routed 55 / 81 queue 15
+[199.4] saved 57 nets
+[199.4] iter 16 routed 57 / 81 queue 13
+[204.7] saved 58 nets
+[204.7] iter 17 routed 58 / 81 queue 12
+[204.7] net unroutable even soft /CARD_COPI
+[204.7] net unroutable even soft /CARD_CLK
+[207.8] iter 21 routed 58 / 81 queue 10
+[223.1] saved 59 nets
+[223.1] iter 22 routed 59 / 81 queue 9
+[227.9] net unroutable even soft /KBD_RESET
+[243.3] net unroutable even soft +3V3
+[258.9] net unroutable even soft GND
+[269.5] saved 60 nets
+[269.5] iter 27 routed 60 / 81 queue 5
+[269.8] iter 28 routed 59 / 81 queue 6
+[281.8] iter 29 routed 60 / 81 queue 5
+[287.7] iter 30 routed 60 / 81 queue 5
+[298.1] iter 32 routed 60 / 81 queue 5
+[303.0] iter 33 routed 59 / 81 queue 6
+[303.6] iter 35 routed 59 / 81 queue 6
+[311.6] iter 36 routed 59 / 81 queue 6
+[312.1] iter 38 routed 60 / 81 queue 5
+[313.0] iter 39 routed 60 / 81 queue 5
+[313.6] iter 40 routed 60 / 81 queue 5
+[321.6] saved 61 nets
+[321.6] iter 42 routed 61 / 81 queue 4
+[322.4] iter 43 routed 60 / 81 queue 5
+[323.0] iter 45 routed 60 / 81 queue 5
+[330.1] iter 46 routed 60 / 81 queue 5
+[330.5] iter 47 routed 60 / 81 queue 5
+[331.4] iter 48 routed 60 / 81 queue 5
+[332.0] iter 49 routed 60 / 81 queue 5
+[339.4] iter 51 routed 61 / 81 queue 4
+[340.2] iter 52 routed 60 / 81 queue 5
+[340.8] iter 54 routed 60 / 81 queue 5
+[347.9] iter 55 routed 60 / 81 queue 5
+[348.3] iter 56 routed 60 / 81 queue 5
+[349.2] iter 57 routed 60 / 81 queue 5
+[349.8] iter 58 routed 60 / 81 queue 5
+[357.6] iter 60 routed 61 / 81 queue 4
+[358.4] iter 61 routed 60 / 81 queue 5
+[359.0] iter 63 routed 60 / 81 queue 5
+[365.9] iter 64 routed 60 / 81 queue 5
+[366.3] iter 65 routed 60 / 81 queue 5
+[367.1] iter 66 routed 60 / 81 queue 5
+[367.8] iter 67 routed 60 / 81 queue 5
+[375.0] iter 69 routed 61 / 81 queue 4
+[375.1] final routed 61 / 81
+[375.2] saved 61 nets

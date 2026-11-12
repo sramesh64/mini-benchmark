@@ -1,0 +1,23 @@
+{
+  "boards_complete": 0,
+  "boards_scored": 4,
+  "can_adapter_complete": 0,
+  "can_adapter_reward": 0.6,
+  "can_adapter_seconds": 100,
+  "can_adapter_timed_out": 0,
+  "full_pass": 0,
+  "interface_card_complete": 0,
+  "interface_card_reward": 0.6818,
+  "interface_card_seconds": 213,
+  "interface_card_timed_out": 0,
+  "pic_programmer_complete": 0,
+  "pic_programmer_reward": 0.6364,
+  "pic_programmer_seconds": 378,
+  "pic_programmer_timed_out": 0,
+  "reward": 0.5796,
+  "submitted": 1,
+  "usb_hub_complete": 0,
+  "usb_hub_reward": 0.4,
+  "usb_hub_seconds": 91,
+  "usb_hub_timed_out": 0
+}

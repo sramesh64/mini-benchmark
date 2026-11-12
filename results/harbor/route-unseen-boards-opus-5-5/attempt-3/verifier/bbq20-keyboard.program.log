@@ -1,0 +1,26 @@
+GHT', '/ROW6', '/ROW4', '/ROW2'] ok
+[140.4] ripup /MIC ripped ['GND'] ok
+[153.8] ripup +3V3 ripped ['Net-(U1-Pad21)', '/QSPI_SD2', '/COL1', '/COL3', '/MIC', '/ROW7', '/TP_SDA', '/BOOTSEL'] ok
+[156.6] ripup /TP_MOTION ripped ['+3V3', '/COL2', '/TP_SCL', '/COL6'] ok
+[156.9] ripup /Keyboard/TP_SHUTDOWN_1V8 ripped ['/Keyboard/TP_SCL_1V8', '/COL5', '+1V8'] ok
+[157.9] ripup /ROW4 ripped ['/ROW6', '/ROW5', '/ROW3'] ok
+[173.5] ripup /TP_SCL ripped ['/TP_MOTION', '/ROW4', '/COL4', '/TP_RESET'] ok
+[174.8] ripup /Keyboard/TP_SCL_1V8 ripped ['/Keyboard/TP_SDA_1V8', '/Keyboard/TP_RESET_1V8'] ok
+[180.5] ripup /ROW3 ripped ['+2V8', '/COL2', '/Keyboard/TP_SCL_1V8', '/COL6', '/ROW7'] ok
+[183.1] ripup /Keyboard/TP_RESET_1V8 ripped ['+1V8'] ok
+[183.3] ripup /Keyboard/TP_SCL_1V8 ripped ['/Keyboard/TP_SHUTDOWN_1V8', '/Keyboard/TP_MOTION_1V8', '/Keyboard/TP_SDA_1V8', '/ROW3', '/BOOTSEL'] ok
+[185.4] ripup /Keyboard/TP_SHUTDOWN_1V8 ripped ['/MIC', '+1V8', '/Keyboard/TP_SCL_1V8', '/COL6'] ok
+[188.4] done; routed 44 of 56 failed ['/D-', '/D+', '/Keyboard/TP_SCL_1V8', 'Net-(C7-Pad1)', '/ROW3', '/ROW4', '/ROW6', '/COL2', '/COL5', '/COL6', 'GND', '+3V3']
+14:24:38: Debug: Adding duplicate image handler for 'PNG file'
+14:24:38: Debug: Adding duplicate image handler for 'JPEG file'
+14:24:38: Debug: Adding duplicate image handler for 'TIFF file'
+14:24:38: Debug: Adding duplicate image handler for 'GIF file'
+14:24:38: Debug: Adding duplicate image handler for 'PNM file'
+14:24:38: Debug: Adding duplicate image handler for 'PCX file'
+14:24:38: Debug: Adding duplicate image handler for 'IFF file'
+14:24:38: Debug: Adding duplicate image handler for 'Windows icon file'
+14:24:38: Debug: Adding duplicate image handler for 'Windows cursor file'
+14:24:38: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+14:24:38: Debug: Adding duplicate image handler for 'TGA file'
+14:24:38: Debug: Adding duplicate image handler for 'XPM file'
+[188.4] saved /run/hidden/bbq20-keyboard/routed.kicad_pcb

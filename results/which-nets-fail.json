@@ -1,0 +1,99 @@
+{
+ "bbq20-keyboard": {
+  "attempts": 8,
+  "groups": {
+   "many_pads": {
+    "nets": 3,
+    "failures": 10,
+    "net_runs": 24
+   },
+   "tight_pad": {
+    "nets": 51,
+    "failures": 62,
+    "net_runs": 408
+   },
+   "other": {
+    "nets": 1,
+    "failures": 0,
+    "net_runs": 8
+   }
+  },
+  "fail_in_every_attempt": [
+   "+3V3"
+  ]
+ },
+ "cpld-test-board": {
+  "attempts": 8,
+  "groups": {
+   "many_pads": {
+    "nets": 2,
+    "failures": 5,
+    "net_runs": 16
+   },
+   "tight_pad": {
+    "nets": 0,
+    "failures": 0,
+    "net_runs": 0
+   },
+   "other": {
+    "nets": 81,
+    "failures": 35,
+    "net_runs": 648
+   }
+  },
+  "fail_in_every_attempt": []
+ },
+ "keyboard-featherwing": {
+  "attempts": 8,
+  "groups": {
+   "many_pads": {
+    "nets": 2,
+    "failures": 16,
+    "net_runs": 16
+   },
+   "tight_pad": {
+    "nets": 51,
+    "failures": 217,
+    "net_runs": 408
+   },
+   "other": {
+    "nets": 28,
+    "failures": 25,
+    "net_runs": 224
+   }
+  },
+  "fail_in_every_attempt": [
+   "+3V3",
+   "/CARD_CLK",
+   "/CARD_COPI",
+   "/KBD_RESET",
+   "/LCD_CS",
+   "/TP_XP",
+   "GND"
+  ]
+ },
+ "macro-pad": {
+  "attempts": 8,
+  "groups": {
+   "many_pads": {
+    "nets": 3,
+    "failures": 18,
+    "net_runs": 24
+   },
+   "tight_pad": {
+    "nets": 21,
+    "failures": 90,
+    "net_runs": 168
+   },
+   "other": {
+    "nets": 14,
+    "failures": 3,
+    "net_runs": 112
+   }
+  },
+  "fail_in_every_attempt": [
+   "+5V",
+   "GND"
+  ]
+ }
+}
